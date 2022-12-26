@@ -1,0 +1,4 @@
+// 2022-12-25 21:15:49
+function arrayRand(__arr) {
+    return __arr[irandom(array_length(__arr) + -1)];
+}

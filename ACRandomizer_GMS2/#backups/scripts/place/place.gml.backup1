@@ -1,0 +1,9 @@
+// 2022-12-25 14:55:54
+function place(__obj, __x, __y) {
+    
+    if(__x == undefined){ __x = 0; }
+    if(__y == undefined){ __y = 0; }
+    
+    instance_create_depth(__x, __y, 0, __obj);
+    
+}

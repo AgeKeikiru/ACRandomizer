@@ -1,0 +1,1 @@
+place(obj_main);

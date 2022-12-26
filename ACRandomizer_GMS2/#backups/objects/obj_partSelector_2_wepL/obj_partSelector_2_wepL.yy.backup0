@@ -1,0 +1,149 @@
+// 2022-12-26 11:34:43
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+#region //blade
+
+    with place(obj_part){
+            
+        name = "ELS-2772";
+        tag = "Laser Blade";
+        
+        wCost = 122;
+        eCost = 26;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ELS-3443";
+        tag = "Laser Blade";
+        
+        wCost = 180;
+        eCost = 42;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ZLS-400/SL";
+        tag = "Laser Blade";
+        
+        wCost = 233;
+        eCost = 66;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ZLS-T/100";
+        tag = "Laser Blade";
+        
+        wCost = 204;
+        eCost = 41;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "LS-MOONLIGHT";
+        tag = "Laser Blade";
+        
+        wCost = 612;
+        eCost = 95;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ELS-7880";
+        tag = "Laser Blade";
+        
+        wCost = 386;
+        eCost = 79;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //shield
+    
+    with place(obj_part){
+            
+        name = "EES-2555";
+        tag = "Energy Shield";
+        
+        wCost = 123;
+        eCost = 18;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "EES-777LAR";
+        tag = "Energy Shield";
+        
+        wCost = 172;
+        eCost = 45;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ZES-500/SU";
+        tag = "Energy Shield";
+        
+        wCost = 224;
+        eCost = 126;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ZES-99/MIRROR";
+        tag = "Energy Shield";
+        
+        wCost = 330;
+        eCost = 78;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion

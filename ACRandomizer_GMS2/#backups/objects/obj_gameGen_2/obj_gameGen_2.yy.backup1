@@ -1,0 +1,24 @@
+// 2022-12-25 22:48:01
+#event properties (no comments/etc. here are saved)
+parent_index = obj_gameGen;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+heads = place(obj_partSelector_2_head);
+cores = place(obj_partSelector_2_core);
+arms = place(obj_partSelector_2_arms);
+legs = place(obj_partSelector_2_legs);
+boosts = place(obj_partSelector_2_booster);
+fcs = place(obj_partSelector_2_fcs);
+gens = place(obj_partSelector_2_generator);
+rads = place(obj_partSelector_2_radiator);
+ins = place(obj_partSelector_2_inside);
+exts = place(obj_partSelector_2_extension);
+backRs = place(obj_partSelector_2_wepB);
+backLs = place(obj_partSelector_2_wepB);
+wepRs = place(obj_partSelector_2_wepR);
+wepLs = place(obj_partSelector_2_wepL);
+ops = place(obj_partSelector_2_option);

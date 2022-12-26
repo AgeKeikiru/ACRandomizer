@@ -1,0 +1,187 @@
+// 2022-12-25 20:56:24
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+    
+    name = "ZHD-GE/OHR";
+    
+    wCost = 114;
+    eCost = 350;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-GN-92";
+    
+    wCost = 378;
+    eCost = 702;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-NIGHTEYE";
+    
+    wCost = 197;
+    eCost = 680;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-GARD";
+    
+    wCost = 156;
+    eCost = 405;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-06/RW";
+    
+    wCost = 253;
+    eCost = 480;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-ONE-NT";
+    
+    wCost = 188;
+    eCost = 982;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-8008/S";
+    
+    wCost = 179;
+    eCost = 431;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-AG/TURRET";
+    
+    wCost = 197;
+    eCost = 538;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-MO/EGRET";
+    
+    wCost = 204;
+    eCost = 308;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-2000/SV";
+    
+    wCost = 131;
+    eCost = 1045;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-DOME";
+    
+    wCost = 294;
+    eCost = 457;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-WACS";
+    
+    wCost = 145;
+    eCost = 611;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "EHD-SCOPEEYE";
+    
+    wCost = 237;
+    eCost = 674;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "ZHD-102/ROCK";
+    
+    wCost = 481;
+    eCost = 278;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
