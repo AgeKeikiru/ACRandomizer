@@ -1,4 +1,4 @@
-// 2022-12-26 17:40:35
+// 2022-12-26 17:41:50
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 sprite_index = spr_collision;
@@ -20,6 +20,8 @@ on = true;
 
 src = noone;
 
+font = ft_basic;
+
 fn_click = function(){}
 
 fn_draw = function(){
@@ -28,7 +30,7 @@ fn_draw = function(){
     
     draw_self();
     
-    draw_set_font(ft_basic);
+    draw_set_font(font);
     draw_set_halign(fa_center);
     draw_set_valign(fa_center);
     

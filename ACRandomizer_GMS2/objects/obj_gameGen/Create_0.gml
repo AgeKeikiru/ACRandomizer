@@ -17,7 +17,7 @@ wepRs = noone;
 wepLs = noone;
 ops = noone;
 
-veto = "";
+veto = "---";
 
 vetos = [
     "Can change Head",

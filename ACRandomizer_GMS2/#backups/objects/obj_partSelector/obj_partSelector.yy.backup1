@@ -1,4 +1,4 @@
-// 2022-12-25 23:18:38
+// 2022-12-26 19:40:11
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -8,9 +8,32 @@ uses_physics = false;
 
 parts = [];
 
+title = "";
+
 main = obj_main.noPart;
 
 alt = obj_main.noPart;
+
+fn_draw = function(){
+    
+    draw_set_color(merge_color(CC_BLUE, c_white, 0.5));
+    
+    draw_set_font(ft_labelMini);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    
+    draw_text(x + 8, y, title);
+    
+    draw_set_color(CC_TXT);
+    
+    draw_set_font(ft_mini);
+    
+    draw_text(x, y + 15, main.name);
+    draw_text_transformed(x + 5, y + 30, main.tag, 0.8, 0.8, 0);
+    
+    draw_text(x, y + 55, alt.name);
+    
+}
 
 fn_select = function(__preSelect){
     

@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+#macro CC_BLUE css($4986c4)
+
 image_xscale = 200;
 image_yscale = 50;
-image_blend = css($4986c4);
+image_blend = CC_BLUE;
 
 text = "";
 tooltip = "";

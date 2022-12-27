@@ -1,4 +1,4 @@
-// 2022-12-26 17:41:50
+// 2022-12-26 19:24:53
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 sprite_index = spr_collision;
@@ -7,9 +7,11 @@ uses_physics = false;
 #event create Insert description here
 // You can write your code in this editor
 
+#macro CC_BLUE css($4986c4)
+
 image_xscale = 200;
 image_yscale = 50;
-image_blend = css($4986c4);
+image_blend = CC_BLUE;
 
 text = "";
 tooltip = "";

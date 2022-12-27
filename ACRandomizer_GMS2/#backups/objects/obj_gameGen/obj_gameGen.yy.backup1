@@ -1,4 +1,4 @@
-// 2022-12-26 17:34:42
+// 2022-12-26 17:35:41
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -76,7 +76,7 @@ fn_randomize = function(){
     
         if(!arms.main.wepArm){
             
-            if(random(1) < 0.9){
+            if(random(1) < obj_main.sld_armREQ.baseValue){
         
                 wepRs.fn_select();
             
@@ -86,7 +86,7 @@ fn_randomize = function(){
             
             }
             
-            if(random(1) < 0.8){
+            if(random(1) < obj_main.sld_armLEQ.baseValue){
             
                 wepLs.fn_select();
             

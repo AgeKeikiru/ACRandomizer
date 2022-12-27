@@ -10,9 +10,6 @@ draw_set_color(c_white);
 with selected{
     
     var
-    _iPage = 10,
-    _iPageNext = _iPage,
-    _draw_x = 10,
     _arr = [
         heads,
         cores,
@@ -28,46 +25,11 @@ with selected{
         backLs,
         wepRs,
         wepLs
-    ],
+    ];
     
-    _text = "";
-    
-    draw_set_font(ft_mini);
-    draw_set_halign(fa_left);
-    draw_set_valign(fa_top);
-    
-    draw_set_color(CC_TXT);
-    
-    var _i = 0;
-    while(_i < array_length(_arr)){
-        
-        var
-        _pick = _arr[_i];
-        
-        _text += _pick.title;
-        
-        if(_pick.main.tag != ""){
-            _text += " - " + _pick.main.tag;
-        }
-        
-        _text += "\n" + _pick.main.name + "\n\n";
-        
-        _i++;
-        
-        if(_i >= _iPageNext){
-            
-            draw_text(_draw_x, 10, _text);
-            
-            _iPageNext += _iPage;
-            _draw_x += 320;
-            
-            _text = "";
-            
-        }
-        
+    for(var _i = 0; _i < array_length(_arr); _i++){
+        _arr[_i].fn_draw();
     }
-    
-    draw_text(_draw_x, 10, _text);
     
 }
 
@@ -99,3 +61,11 @@ with obj_button{
     }
     
 }
+
+draw_set_color(CC_TXT);
+
+draw_set_font(ft_mini);
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
+
+draw_text_ext(700, 400, "VETO:\n" + selected.veto, -1, 300);
