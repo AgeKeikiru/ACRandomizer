@@ -1,0 +1,46 @@
+// 2022-12-27 16:34:10
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "GBG-10000";
+    
+    wCost = 398;
+    eLimit = 9988;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "GBG-XR";
+    
+    wCost = 452;
+    eLimit = 8207;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "GPS-V6";
+    
+    wCost = 363;
+    eLimit = 4728;
+    
+    array_push(_this.parts, id);
+    
+}

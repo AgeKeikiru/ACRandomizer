@@ -1,0 +1,657 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+#region //missile
+
+    with place(obj_part){
+            
+        name = "WM-L201";
+        tag = "Large Missile";
+        
+        wCost = 835;
+        eCost = 180;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-MVG404";
+        tag = "Missile";
+        
+        wCost = 620;
+        eCost = 280;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-MVG802";
+        tag = "Missile";
+        
+        wCost = 718;
+        eCost = 220;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-P4001";
+        tag = "Dual Missile";
+        
+        wCost = 755;
+        eCost = 320;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-PS-2";
+        tag = "Triple Missile";
+        
+        wCost = 1125;
+        eCost = 360;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-S40/1";
+        tag = "Small Missile";
+        
+        wCost = 245;
+        eCost = 245;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-S40/2";
+        tag = "Small Missile";
+        
+        wCost = 337;
+        eCost = 320;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-S60/4";
+        tag = "Small Missile";
+        
+        wCost = 520;
+        eCost = 349;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-S60/6";
+        tag = "Small Missile";
+        
+        wCost = 583;
+        eCost = 353;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-X201";
+        tag = "Multi Missile";
+        
+        wCost = 720;
+        eCost = 250;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-AT";
+        tag = "Large Missile";
+        
+        wCost = 1507;
+        eCost = 382;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-T0100";
+        tag = "Small Missile";
+        
+        wCost = 725;
+        eCost = 290;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-SMSS24";
+        tag = "Missile";
+        
+        wCost = 655;
+        eCost = 308;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-MVG812";
+        tag = "Small Missile";
+        
+        wCost = 1016;
+        eCost = 300;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //rocket
+    
+    with place(obj_part){
+            
+        name = "WR-L24";
+        tag = "Large Rocket";
+        
+        wCost = 805;
+        eCost = 18;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR-M50";
+        tag = "Rocket";
+        
+        wCost = 677;
+        eCost = 13;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR-M70";
+        tag = "Rocket";
+        
+        wCost = 718;
+        eCost = 24;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR-S100";
+        tag = "Small Rocket";
+        
+        wCost = 846;
+        eCost = 15;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR-S50";
+        tag = "Small Rocket";
+        
+        wCost = 218;
+        eCost = 8;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR-RS7";
+        tag = "Special Rocket";
+        
+        wCost = 759;
+        eCost = 31;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //cannon
+    
+    with place(obj_part){
+            
+        name = "WC-01QL";
+        tag = "Plasma Cannon";
+        
+        wCost = 273;
+        eCost = 618;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-CN35";
+        tag = "Chain Gun";
+        
+        wCost = 593;
+        eCost = 11;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-GN230";
+        tag = "Grenade Launcher";
+        
+        wCost = 1230;
+        eCost = 8;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-LN350";
+        tag = "Linear Gun";
+        
+        wCost = 425;
+        eCost = 8;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-ST120";
+        tag = "Slug Gun";
+        
+        wCost = 827;
+        eCost = 6;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-XC8000";
+        tag = "Laser Cannon";
+        
+        wCost = 1110;
+        eCost = 455;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-XP4000";
+        tag = "Pulse Cannon";
+        
+        wCost = 318;
+        eCost = 364;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-SPGUN";
+        tag = "Slug Gun";
+        
+        wCost = 912;
+        eCost = 11;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WC-IR24";
+        tag = "Laser Cannon";
+        
+        wCost = 1006;
+        eCost = 806;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WX-ED2";
+        tag = "Plasma Cannon";
+        
+        wCost = 1350;
+        eCost = 750;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WX-C/4";
+        tag = "Laser Cannon";
+        
+        wCost = 1670;
+        eCost = 905;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //utility
+    
+    with place(obj_part){
+            
+        name = "RXA-01WE";
+        tag = "Radar";
+        
+        wCost = 210;
+        eCost = 243;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RXA-77";
+        tag = "Radar";
+        
+        wCost = 125;
+        eCost = 274;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RXA-99";
+        tag = "Radar";
+        
+        wCost = 160;
+        eCost = 267;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RZ-A0";
+        tag = "Radar";
+        
+        wCost = 480;
+        eCost = 387;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RZ-A1";
+        tag = "Radar";
+        
+        wCost = 433;
+        eCost = 403;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RZ-BBP";
+        tag = "Radar";
+        
+        wCost = 454;
+        eCost = 566;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RZT-333";
+        tag = "Radar";
+        
+        wCost = 343;
+        eCost = 451;
+        
+        base = false;
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-X10";
+        tag = "Bomb Dispenser";
+        
+        wCost = 939;
+        eCost = 105;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-X5-AA";
+        tag = "Bomb Dispenser";
+        
+        wCost = 616;
+        eCost = 85;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "M118-TD";
+        tag = "Magazine";
+        
+        wCost = 455;
+        eCost = 0;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "RZ-Fw2";
+        tag = "Radar";
+        
+        wCost = 352;
+        eCost = 826;
+        
+        base = false;
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WM-X15-EX";
+        tag = "Plasma Dispenser";
+        
+        wCost = 580;
+        eCost = 330;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WRR-10";
+        tag = "Mine Dispenser";
+        
+        wCost = 351;
+        eCost = 24;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //dual backs
+    
+    with place(obj_part){
+            
+        name = "WX-S800/2";
+        tag = "Dual Missile";
+        
+        wCost = 1650;
+        eCost = 415;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WX-S800-GF";
+        tag = "Dual Missile";
+        
+        wCost = 1110;
+        eCost = 656;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "XCS-9900";
+        tag = "Multi Missile";
+        
+        wCost = 1480;
+        eCost = 310;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "P77-ST";
+        tag = "Steath";
+        
+        wCost = 1780;
+        eCost = 998;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion

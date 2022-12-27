@@ -109,11 +109,11 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "BEX-BT180 (update w/e cost)";
+    name = "BEX-BT180";
     tag = "Turn Booster";
     
     wCost = 154;
-    eCost = 154;
+    eCost = 258;
     
     base = false;
     
@@ -123,11 +123,11 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "BEX-AA00 (update w/e cost)";
+    name = "BEX-AA00";
     tag = "Additional Armor";
     
     wCost = 132;
-    eCost = 132;
+    eCost = 4;
     
     base = false;
     

@@ -16,13 +16,17 @@ on = true;
 
 src = noone;
 
-font = ft_basic;
+font = ft_mini;
 
 fn_click = function(){}
+
+fn_click_end = function(){ /*abstract*/ }
 
 fn_draw = function(){
     
     draw_set_color(c_white);
+    
+    image_blend = on ? CC_BLUE : c_dkgray;
     
     draw_self();
     

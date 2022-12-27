@@ -2,8 +2,6 @@
 
 event_inherited();
 
-array_push(parts, obj_main.noPart);
-
 var
 _this = id;
 

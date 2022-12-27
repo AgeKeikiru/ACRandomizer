@@ -1,0 +1,85 @@
+// 2022-12-27 15:52:34
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+    
+    name = "XCA-00";
+    
+    wCost = 1103;
+    eCost = 1046;
+    
+    wLimit = 2770;
+    oLimit = 8;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "XCH-01";
+    
+    wCost = 1384;
+    eCost = 873;
+    
+    wLimit = 3600;
+    oLimit = 12;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "XCL-01";
+    
+    wCost = 885;
+    eCost = 1380;
+    
+    wLimit = 2450;
+    oLimit = 16;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "XXA-S0";
+    
+    wCost = 784;
+    eCost = 1273;
+    
+    wLimit = 2820;
+    oLimit = 17;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "XXL-D0";
+    
+    wCost = 910;
+    eCost = 1120;
+    
+    wLimit = 3320;
+    oLimit = 5;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}

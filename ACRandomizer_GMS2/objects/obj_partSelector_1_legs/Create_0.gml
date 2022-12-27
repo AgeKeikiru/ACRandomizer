@@ -1,0 +1,399 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+#region //mid leg
+
+    with place(obj_part){
+        
+        name = "LN-1001";
+        tag = "Middleweight Bipedal";
+        
+        wLimit = 4470;
+        eCost = 1725;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-1001B";
+        tag = "Middleweight Bipedal";
+        
+        wLimit = 4630;
+        eCost = 1889;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-1001-PX-0";
+        tag = "Middleweight Bipedal";
+        
+        wLimit = 4100;
+        eCost = 1844;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-S3";
+        tag = "Middleweight Bipedal";
+        
+        wLimit = 5630;
+        eCost = 2050;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //light leg
+
+    with place(obj_part){
+        
+        name = "LN-501";
+        tag = "Lightweight Bipedal";
+        
+        wLimit = 3990;
+        eCost = 2910;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-502";
+        tag = "Lightweight Bipedal";
+        
+        wLimit = 3800;
+        eCost = 2466;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-SSVT";
+        tag = "Lightweight Bipedal";
+        
+        wLimit = 3560;
+        eCost = 2338;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-D-8000R";
+        tag = "Lightweight Bipedal";
+        
+        wLimit = 4720;
+        eCost = 2350;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-2KZ-SP";
+        tag = "Lightweight Bipedal";
+        
+        wLimit = 4420;
+        eCost = 3034;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //heavy leg
+
+    with place(obj_part){
+        
+        name = "LN-3001";
+        tag = "Heavyweight Bipedal";
+        
+        wLimit = 6600;
+        eCost = 2206;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-3001C";
+        tag = "Heavyweight Bipedal";
+        
+        wLimit = 7100;
+        eCost = 2418;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LN-SSVR";
+        tag = "Heavyweight Bipedal";
+        
+        wLimit = 5400;
+        eCost = 2013;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LNKS-1B46J";
+        tag = "Heavyweight Bipedal";
+        
+        wLimit = 6100;
+        eCost = 2304;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //rev leg
+
+    with place(obj_part){
+        
+        name = "LB-1000-P";
+        tag = "Reverse Joint";
+        
+        wLimit = 3775;
+        eCost = 1228;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LB-4303";
+        tag = "Reverse Joint";
+        
+        wLimit = 4180;
+        eCost = 1585;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LB-4400";
+        tag = "Reverse Joint";
+        
+        wLimit = 4020;
+        eCost = 1400;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LB-4401";
+        tag = "Reverse Joint";
+        
+        wLimit = 4510;
+        eCost = 1456;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LBKS-2B45A";
+        tag = "Reverse Joint";
+        
+        wLimit = 3990;
+        eCost = 1703;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LB-H230";
+        tag = "Reverse Joint";
+        
+        wLimit = 5124;
+        eCost = 1848;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //quad leg
+
+    with place(obj_part){
+        
+        name = "LF-205-SF";
+        tag = "Quadruped";
+        
+        wLimit = 3450;
+        eCost = 2810;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LF-DEX-1";
+        tag = "Quadruped";
+        
+        wLimit = 4450;
+        eCost = 4016;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LFH-X3";
+        tag = "Quadruped";
+        
+        wLimit = 3810;
+        eCost = 2988;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LFH-X5X";
+        tag = "Quadruped";
+        
+        wLimit = 5000;
+        eCost = 3584;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LF-TR-0";
+        tag = "Quadruped";
+        
+        wLimit = 4360;
+        eCost = 3358;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //tank leg
+
+    with place(obj_part){
+        
+        name = "LC-HTP-AAA";
+        tag = "Tank";
+        
+        wLimit = 4130;
+        eCost = 2877;
+        
+        boostLeg = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LC-MOS18";
+        tag = "Tank";
+        
+        wLimit = 8000;
+        eCost = 978;
+        
+        boostLeg = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LC-MOS4545";
+        tag = "Tank";
+        
+        wLimit = 7400;
+        eCost = 2609;
+        
+        boostLeg = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LC-UKI60";
+        tag = "Tank";
+        
+        wLimit = 6950;
+        eCost = 1104;
+        
+        boostLeg = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+        
+        name = "LC-HTP-H5";
+        tag = "Tank";
+        
+        wLimit = 5630;
+        eCost = 3140;
+        
+        base = false;
+        boostLeg = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion

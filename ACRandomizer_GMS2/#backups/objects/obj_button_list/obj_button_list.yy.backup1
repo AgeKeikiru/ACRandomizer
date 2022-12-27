@@ -1,0 +1,23 @@
+// 2022-12-27 12:12:34
+#event properties (no comments/etc. here are saved)
+parent_index = obj_button;
+sprite_index = spr_collision;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+image_yscale *= 0.6;
+
+fn_click = function(){
+    
+    for(var _i = 0; _i < array_length(src); _i++){
+        src[_i].on = false;
+    }
+    
+    on = true;
+    
+    fn_click_end();
+    
+}

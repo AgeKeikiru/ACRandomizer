@@ -1,4 +1,4 @@
-// 2022-12-26 17:41:50
+// 2022-12-27 12:16:27
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 sprite_index = spr_collision;
@@ -7,9 +7,11 @@ uses_physics = false;
 #event create Insert description here
 // You can write your code in this editor
 
+#macro CC_BLUE css($4986c4)
+
 image_xscale = 200;
 image_yscale = 50;
-image_blend = css($4986c4);
+image_blend = CC_BLUE;
 
 text = "";
 tooltip = "";
@@ -20,13 +22,17 @@ on = true;
 
 src = noone;
 
-font = ft_basic;
+font = ft_mini;
 
 fn_click = function(){}
+
+fn_click_end = function(){ /*abstract*/ }
 
 fn_draw = function(){
     
     draw_set_color(c_white);
+    
+    image_blend = on ? CC_BLUE : c_dkgray;
     
     draw_self();
     
@@ -42,6 +48,7 @@ fn_draw = function(){
 // You can write your code in this editor
 
 fn_click();
+fn_click_end();
 
 #event draw Insert description here
 // You can write your code in this editor

@@ -1,0 +1,137 @@
+// 2022-12-27 17:20:32
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+            
+    name = "SP-ABS";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-AXL";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-CND-K";
+    
+    oCost = 4;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-E/SCR";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-E+";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-EH";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-JAM";
+    
+    oCost = 3;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-M/AUTO";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-MAW";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-S/SCR";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-SAP";
+    
+    oCost = 1;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-DEtq";
+    
+    oCost = 5;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}

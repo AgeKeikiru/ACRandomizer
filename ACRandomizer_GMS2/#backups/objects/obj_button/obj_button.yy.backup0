@@ -1,4 +1,4 @@
-// 2022-12-26 19:24:53
+// 2022-12-27 12:16:46
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 sprite_index = spr_collision;
@@ -22,13 +22,17 @@ on = true;
 
 src = noone;
 
-font = ft_basic;
+font = ft_mini;
 
 fn_click = function(){}
+
+fn_click_end = function(){ /*abstract*/ }
 
 fn_draw = function(){
     
     draw_set_color(c_white);
+    
+    image_blend = on ? CC_BLUE : c_dkgray;
     
     draw_self();
     
@@ -44,6 +48,7 @@ fn_draw = function(){
 // You can write your code in this editor
 
 fn_click();
+fn_click_end();
 
 #event draw Insert description here
 // You can write your code in this editor

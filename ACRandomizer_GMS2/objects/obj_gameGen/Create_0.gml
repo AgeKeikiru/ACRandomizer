@@ -33,7 +33,8 @@ eTotal = 0; //energy drain
 fn_randomize = function(){
     
     var
-    _fail = false;
+    _fail = false,
+    _radar = 0;
     
     show_debug_message("");
     
@@ -101,14 +102,18 @@ fn_randomize = function(){
         settings-based: chance to skip
         */
         
-        if(random(1) < obj_main.sld_inEQ.baseValue){
-            
-            ins.fn_select();
+        if(ins != noone){
         
-            wTotal += ins.main.wCost;
-            aTotal += ins.main.wCost;
-            eTotal += ins.main.eCost;
+            if(random(1) < obj_main.sld_inEQ.baseValue){
+                
+                ins.fn_select();
             
+                wTotal += ins.main.wCost;
+                aTotal += ins.main.wCost;
+                eTotal += ins.main.eCost;
+                
+            }
+        
         }
     
     #endregion
@@ -119,14 +124,18 @@ fn_randomize = function(){
         settings-based: chance to skip
         */
         
-        if(random(1) < obj_main.sld_extEQ.baseValue){
-            
-            exts.fn_select();
+        if(exts != noone){
         
-            wTotal += exts.main.wCost;
-            aTotal += exts.main.wCost;
-            eTotal += exts.main.eCost;
+            if(random(1) < obj_main.sld_extEQ.baseValue){
+                
+                exts.fn_select();
             
+                wTotal += exts.main.wCost;
+                aTotal += exts.main.wCost;
+                eTotal += exts.main.eCost;
+                
+            }
+        
         }
     
     #endregion
@@ -199,10 +208,14 @@ fn_randomize = function(){
         
         */
         
-        rads.fn_select();
+        if(rads != noone){
         
-        wTotal += rads.main.wCost;
-        eTotal += rads.main.eCost;
+            rads.fn_select();
+            
+            wTotal += rads.main.wCost;
+            eTotal += rads.main.eCost;
+        
+        }
     
     #endregion
     
@@ -218,6 +231,8 @@ fn_randomize = function(){
             
             wTotal += backRs.main.wCost;
             eTotal += backRs.main.eCost;
+            
+            _radar += backRs.main.radar * backRs.alt.radar;
         
         }
     
@@ -243,6 +258,8 @@ fn_randomize = function(){
             wTotal += backLs.main.wCost;
             eTotal += backLs.main.eCost;
             
+            _radar += backRs.main.radar * backRs.alt.radar;
+            
         }
     
     #endregion
@@ -253,7 +270,7 @@ fn_randomize = function(){
         settings-based: guarantee a radar head if no back radar is equipped
         */
         
-        if(false /*setting*/){
+        if(!_radar && obj_main.tog_radar.on){
             
             var
             _arr = [];
@@ -335,6 +352,22 @@ fn_randomize = function(){
             
             if(_part.wLimit >= wTotal && eTotal + _part.eCost <= gens.main.eLimit){
                 array_push(_arr, _part);
+            }
+            
+        }
+        
+        show_debug_message("Legs available: " + string(array_length(_arr)));
+        
+        if(obj_main.tog_leg_weight.on || (obj_main.tog_leg_alt.on && choose(true, false))){
+            
+            //sort legs by weight capacity
+            array_sort(_arr, function(__a, __b){
+                return __a.wLimit + -__b.wLimit;
+            });
+            
+            //get the lowest portion of the list
+            while(array_length(_arr) > 5){
+                array_pop(_arr);
             }
             
         }
