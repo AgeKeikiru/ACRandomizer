@@ -14,3 +14,5 @@ Current features
 Planned features
 - All PS2 games support
 - PS3 games support (less likely to be added, just depends on if I get bored before accommodating for the new systems and mechanics from 4/A onwards)
+- Budget ruleset: randomize parts based on what you can afford, accounts for selling owned parts
+- Roguelike ruleset: randomize parts to buy after each mission, you can use any owned parts as you see fit but cannot sell
