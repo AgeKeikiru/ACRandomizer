@@ -1,0 +1,284 @@
+// 2022-12-29 21:00:57
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+    
+    name = "CHD-01-ATE";
+    
+    wCost = 120;
+    eCost = 350;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-MM/003";
+    
+    wCost = 141;
+    eCost = 657;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-04-YIV";
+    
+    wCost = 135;
+    eCost = 243;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-RE/005";
+    
+    wCost = 234;
+    eCost = 216;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-RE/008";
+    
+    wCost = 187;
+    eCost = 439;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-06-OVE";
+    
+    wCost = 166;
+    eCost = 374;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-02-TIE";
+    
+    wCost = 156;
+    eCost = 457;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-MM/004";
+    
+    wCost = 255;
+    eCost = 333;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-SKYEYE";
+    
+    wCost = 148;
+    eCost = 534;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-SS/CRUST";
+    
+    wCost = 378;
+    eCost = 711;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-MX/RACHIS";
+    
+    wCost = 353;
+    eCost = 277;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-07-VEN";
+    
+    wCost = 145;
+    eCost = 865;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-GLITCH";
+    
+    wCost = 360;
+    eCost = 843;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-RE/H10";
+    
+    wCost = 290;
+    eCost = 332;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-MM/007";
+    
+    wCost = 294;
+    eCost = 658;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-MX/BEE";
+    
+    wCost = 488;
+    eCost = 278;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-MISTEYE";
+    
+    wCost = 237;
+    eCost = 344;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-09-OXI";
+    
+    wCost = 132;
+    eCost = 706;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CHD-9066";
+    
+    wCost = 138;
+    eCost = 457;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-HH/ARSH";
+    
+    wCost = 306;
+    eCost = 382;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MHD-72-50";
+    
+    wCost = 333;
+    eCost = 306;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}

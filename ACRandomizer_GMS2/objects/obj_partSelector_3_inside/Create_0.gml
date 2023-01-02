@@ -1,0 +1,138 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "INW-DEC-00A";
+    tag = "Decoy Dispenser";
+    
+    wCost = 101;
+    eCost = 110;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-DEC-MQ2";
+    tag = "Decoy Dispenser";
+    
+    wCost = 162;
+    eCost = 180;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-EM-RRD";
+    tag = "ECM Maker";
+    
+    wCost = 295;
+    eCost = 240;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-DM-PUPPET";
+    tag = "Dummy Maker";
+    
+    wCost = 143;
+    eCost = 210;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-BD-X22";
+    tag = "Bomb Dispenser";
+    
+    wCost = 133;
+    eCost = 85;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-BD-XVX";
+    tag = "Plasma Dispenser";
+    
+    wCost = 158;
+    eCost = 105;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-DM/R11";
+    tag = "Mine Dispenser";
+    
+    wCost = 298;
+    eCost = 190;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-DM-MV";
+    tag = "Dummy Maker";
+    
+    wCost = 223;
+    eCost = 180;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-RV-08";
+    tag = "Rear Vulcan";
+    
+    wCost = 149;
+    eCost = 78;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "INW-OM-PRT";
+    tag = "Orbit Maker";
+    
+    wCost = 415;
+    eCost = 280;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}

@@ -1,0 +1,178 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+            
+    name = "SP-S/SCR";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-ENE-SCR";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BCNDR";
+    
+    oCost = 4;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BSI-LE";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-SAB/J";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-CIK-K";
+    
+    oCost = 5;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BE++";
+    
+    oCost = 6;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BMALAD";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BPS/LOSP";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-ENE-ACC";
+    
+    oCost = 1;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-E/SAVER";
+    
+    oCost = 5;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-ECM-JAM";
+    
+    oCost = 5;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-M/AUTO";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-BLS";
+    
+    oCost = 6;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-CBRK";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "SP-VIECH";
+    
+    oCost = 6;
+    
+    array_push(_this.parts, id);
+    
+}

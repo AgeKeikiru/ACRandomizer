@@ -1,0 +1,143 @@
+// 2022-12-30 20:31:11
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+    
+    name = "CCM-00-STO";
+    
+    wCost = 1105;
+    eCost = 1043;
+    
+    wLimit = 3558;
+    oLimit = 12;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MCM-MX/002";
+    
+    wCost = 1016;
+    eCost = 1100;
+    
+    wLimit = 3302;
+    oLimit = 16;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CCL-01-NER";
+    
+    wCost = 788;
+    eCost = 1310;
+    
+    wLimit = 3141;
+    oLimit = 14;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MCL-SS/ORCA";
+    
+    wCost = 890;
+    eCost = 1553;
+    
+    wLimit = 3024;
+    oLimit = 20;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CCH-0V-IKS";
+    
+    wCost = 1502;
+    eCost = 992;
+    
+    wLimit = 4077;
+    oLimit = 10;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MCH-MX/GRP";
+    
+    wCost = 1378;
+    eCost = 992;
+    
+    wLimit = 3813;
+    oLimit = 8;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MCM-MI/008";
+    
+    wCost = 1000;
+    eCost = 1255;
+    
+    wLimit = 3270;
+    oLimit = 19;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CCM-0V-AXE";
+    
+    wCost = 1297;
+    eCost = 1120;
+    
+    wLimit = 3430;
+    oLimit = 6;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "MCL-SS/RAY";
+    
+    wCost = 822;
+    eCost = 1273;
+    
+    wLimit = 3056;
+    oLimit = 17;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
