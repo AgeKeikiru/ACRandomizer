@@ -6,10 +6,11 @@ This tool does not account for what parts you own or how much money you have, it
 In addition, a random Veto is also generated with each build - Vetos are optional "free passes" that let you switch a part from a single category to one of your choosing, in case the random build is completely useless.
 
 Current features
-- PS1 trilogy, AC2/AA support
+- PS1 trilogy, AC2/AA, AC3/SL support
 - Options to have a percentage chance to leave weapons/insides/extensions unequipped to reduce weight
 - Option to guarantee radar functionality in the build
 - Option to base leg selection on the weight of all other parts (otherwise leg selection is naturally skewed towards heavier options with higher weight limits since legs are chosen last)
+- Option to force the Left Arm Weapon to be a laser blade
 
 Planned features
 - All PS2 games support
