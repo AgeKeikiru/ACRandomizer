@@ -15,6 +15,8 @@ _this = id;
         wCost = 122;
         eCost = 26;
         
+        bladeL = true;
+        
         array_push(_this.parts, id);
         
     }
@@ -26,6 +28,8 @@ _this = id;
         
         wCost = 180;
         eCost = 42;
+        
+        bladeL = true;
         
         array_push(_this.parts, id);
         
@@ -40,6 +44,7 @@ _this = id;
         eCost = 66;
         
         base = false;
+        bladeL = true;
         
         array_push(_this.parts, id);
         
@@ -52,6 +57,8 @@ _this = id;
         
         wCost = 204;
         eCost = 41;
+        
+        bladeL = true;
         
         array_push(_this.parts, id);
         
@@ -66,6 +73,7 @@ _this = id;
         eCost = 95;
         
         base = false;
+        bladeL = true;
         
         array_push(_this.parts, id);
         
@@ -80,6 +88,7 @@ _this = id;
         eCost = 79;
         
         base = false;
+        bladeL = true;
         
         array_push(_this.parts, id);
         

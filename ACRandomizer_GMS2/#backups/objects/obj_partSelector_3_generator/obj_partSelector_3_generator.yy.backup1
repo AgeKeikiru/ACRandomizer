@@ -1,0 +1,44 @@
+// 2023-01-03 14:00:20
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "CGP-ROV6";
+    
+    wCost = 300;
+    eLimit = 6000;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CGP-ROV10";
+    
+    wCost = 240;
+    eLimit = 6560;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "MGP-VE8";
+    
+    wCost = 284;
+    eLimit = 6800;
+    
+    array_push(_this.parts, id);
+    
+}

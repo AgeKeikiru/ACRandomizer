@@ -1,4 +1,4 @@
-// 2022-12-27 12:09:54
+// 2022-12-27 12:10:30
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -213,10 +213,14 @@ fn_randomize = function(){
         
         */
         
-        rads.fn_select();
+        if(rads != noone){
         
-        wTotal += rads.main.wCost;
-        eTotal += rads.main.eCost;
+            rads.fn_select();
+            
+            wTotal += rads.main.wCost;
+            eTotal += rads.main.eCost;
+        
+        }
     
     #endregion
     

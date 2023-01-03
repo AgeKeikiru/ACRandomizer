@@ -13,6 +13,7 @@ eLimit = 0;
 oLimit = 0;
 
 base = true;
+bladeL = false;
 radar = false;
 dualBack = false;
 wepArm = false;

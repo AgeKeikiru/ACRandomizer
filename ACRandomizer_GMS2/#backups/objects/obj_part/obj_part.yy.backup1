@@ -1,4 +1,4 @@
-// 2022-12-25 16:33:32
+// 2022-12-25 16:33:42
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -21,4 +21,4 @@ base = true;
 radar = false;
 dualBack = false;
 wepArm = false;
-noBoost = false;
+boostLeg = false;

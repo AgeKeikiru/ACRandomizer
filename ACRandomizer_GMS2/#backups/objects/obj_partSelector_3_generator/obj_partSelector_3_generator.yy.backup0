@@ -1,4 +1,9 @@
-/// @description Insert description here
+// 2023-01-03 14:06:42
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
 
 event_inherited();
 

@@ -1,4 +1,9 @@
-/// @description Insert description here
+// 2023-01-03 15:36:14
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
 
 event_inherited();
 
@@ -888,21 +893,6 @@ _this = id;
         
     }
     
-    with place(obj_part){
-            
-        name = "MRL-MM/011";
-        tag = "Radar";
-        
-        wCost = 454;
-        eCost = 562;
-        
-        base = false;
-        radar = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
 #endregion
 
 #region //dual backs
@@ -1000,96 +990,6 @@ _this = id;
         
         wCost = 1388;
         eCost = 24;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "MWX-VM40/1";
-        tag = "Vertical Missiles";
-        
-        wCost = 1475;
-        eCost = 514;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "CWX-DM-48-1";
-        tag = "Dual Missile";
-        
-        wCost = 1397;
-        eCost = 745;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "CWX-DM-60-1";
-        tag = "Dual Missile";
-        
-        wCost = 1550;
-        eCost = 833;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "CWB-DC-150";
-        tag = "Chain Gun";
-        
-        wCost = 1386;
-        eCost = 65;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "CWX-GND-30";
-        tag = "Grenade Launcher";
-        
-        wCost = 1642;
-        eCost = 220;
-        
-        base = false;
-        dualBack = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "MWB-MX/WAKE";
-        tag = "Add booster";
-        
-        wCost = 1120;
-        eCost = 495;
         
         base = false;
         dualBack = true;

@@ -1,0 +1,22 @@
+// 2023-01-03 13:50:04
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "EBT-GE";
+    
+    wCost = 204;
+    eCost = 27;
+    
+    array_push(_this.parts, id);
+    
+}

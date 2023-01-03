@@ -1,4 +1,4 @@
-// 2022-12-26 11:34:04
+// 2022-12-26 11:34:43
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -6,8 +6,6 @@ uses_physics = false;
 #event create Insert description here
 
 event_inherited();
-
-title = "ARM WEP L";
 
 var
 _this = id;

@@ -7,7 +7,7 @@ _this = id;
 
 with place(obj_part){
         
-    name = "RPS-MER/SA";
+    name = "RIX-CR10";
     
     wCost = 125;
     eCost = 124;
@@ -18,10 +18,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RRX-COT-1000";
+    name = "RIX-CR11";
     
-    wCost = 267;
-    eCost = 135;
+    wCost = 238;
+    eCost = 125;
     
     array_push(_this.parts, id);
     
@@ -29,10 +29,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RBG-CM6";
+    name = "RMR-SA44";
     
     wCost = 153;
-    eCost = 201;
+    eCost = 194;
     
     array_push(_this.parts, id);
     
@@ -40,12 +40,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RPS-MB/MKD";
+    name = "RMR-SA77";
     
     wCost = 376;
-    eCost = 329;
-    
-    base = false;
+    eCost = 288;
     
     array_push(_this.parts, id);
     
@@ -53,11 +51,22 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RPS-MER/A3";
+    name = "RIX-CR14";
     
     wCost = 325;
     eCost = 354;
     
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RMR-ICICLE";
+    
+    wCost = 292;
+    eCost = 486;
+    
     base = false;
     
     array_push(_this.parts, id);
@@ -66,12 +75,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RRX-COT-1550";
+    name = "RGI-KD99";
     
-    wCost = 288;
-    eCost = 1060;
-    
-    base = false;
+    wCost = 542;
+    eCost = 376;
     
     array_push(_this.parts, id);
     
@@ -79,21 +86,23 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "RRX-COT-GK10";
-    
-    wCost = 482;
-    eCost = 580;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "RBG-CLX5000";
+    name = "RIX-CR5000";
     
     wCost = 775;
-    eCost = 925;
+    eCost = 525;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RGI-KDA01";
+    
+    wCost = 403;
+    eCost = 462;
     
     base = false;
     

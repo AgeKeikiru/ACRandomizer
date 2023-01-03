@@ -1,4 +1,4 @@
-// 2023-01-03 16:18:28
+// 2023-01-03 16:25:27
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -14,7 +14,7 @@ _this = id;
 
     with place(obj_part){
             
-        name = "ELS-2772";
+        name = "CLB-LS-1551";
         tag = "Laser Blade";
         
         wCost = 122;
@@ -28,11 +28,11 @@ _this = id;
     
     with place(obj_part){
             
-        name = "ELS-3443";
+        name = "MLB-LS/003";
         tag = "Laser Blade";
         
-        wCost = 180;
-        eCost = 42;
+        wCost = 188;
+        eCost = 40;
         
         bladeL = true;
         
@@ -42,26 +42,11 @@ _this = id;
     
     with place(obj_part){
             
-        name = "ZLS-400/SL";
+        name = "CLB-LS-2551";
         tag = "Laser Blade";
         
-        wCost = 233;
-        eCost = 66;
-        
-        base = false;
-        bladeL = true;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "ZLS-T/100";
-        tag = "Laser Blade";
-        
-        wCost = 204;
-        eCost = 41;
+        wCost = 225;
+        eCost = 48;
         
         bladeL = true;
         
@@ -71,13 +56,12 @@ _this = id;
     
     with place(obj_part){
             
-        name = "LS-MOONLIGHT";
+        name = "KLB-TLS/SOL";
         tag = "Laser Blade";
         
-        wCost = 612;
-        eCost = 95;
+        wCost = 250;
+        eCost = 71;
         
-        base = false;
         bladeL = true;
         
         array_push(_this.parts, id);
@@ -86,11 +70,11 @@ _this = id;
     
     with place(obj_part){
             
-        name = "ELS-7880";
+        name = "MLB-MOONLIGHT";
         tag = "Laser Blade";
         
-        wCost = 386;
-        eCost = 79;
+        wCost = 502;
+        eCost = 100;
         
         base = false;
         bladeL = true;
@@ -101,15 +85,15 @@ _this = id;
     
 #endregion
 
-#region //shield
-    
+#region //explosive
+
     with place(obj_part){
             
-        name = "EES-2555";
-        tag = "Energy Shield";
+        name = "KWG-HZL50";
+        tag = "Howitzer";
         
-        wCost = 123;
-        eCost = 18;
+        wCost = 204;
+        eCost = 14;
         
         array_push(_this.parts, id);
         
@@ -117,23 +101,11 @@ _this = id;
     
     with place(obj_part){
             
-        name = "EES-777LAR";
-        tag = "Energy Shield";
+        name = "KWG-HZL30";
+        tag = "Spread Howitzer";
         
-        wCost = 172;
-        eCost = 45;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-            
-        name = "ZES-500/SU";
-        tag = "Energy Shield";
-        
-        wCost = 224;
-        eCost = 126;
+        wCost = 283;
+        eCost = 14;
         
         base = false;
         
@@ -143,11 +115,63 @@ _this = id;
     
     with place(obj_part){
             
-        name = "ZES-99/MIRROR";
+        name = "KWG-FTL450";
+        tag = "Flame thrower";
+        
+        wCost = 355;
+        eCost = 8;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //shield
+    
+    with place(obj_part){
+            
+        name = "CES-ES-0001";
         tag = "Energy Shield";
         
-        wCost = 330;
-        eCost = 78;
+        wCost = 133;
+        eCost = 18;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CES-ES-0101";
+        tag = "Energy Shield";
+        
+        wCost = 180;
+        eCost = 45;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "MES-ES/011";
+        tag = "Energy Shield";
+        
+        wCost = 224;
+        eCost = 75;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "KES-ES/MIRROR";
+        tag = "Energy Shield";
+        
+        wCost = 350;
+        eCost = 129;
         
         base = false;
         

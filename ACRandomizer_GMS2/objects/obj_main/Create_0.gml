@@ -11,6 +11,7 @@ lst_gen = [];
 
 place(obj_gameGen_1);
 place(obj_gameGen_2);
+place(obj_gameGen_3);
 
 var
 _x = 1050,
@@ -89,6 +90,23 @@ with tog_radar{
 }
 
 _y += _gap;
+
+tog_blade = place(obj_button, _x, _y);
+with tog_blade{
+    
+    text = "Force L-Blade";
+    tooltip = "When a Left Arm Weapon is chosen, guarantee it will be an energy blade to prevent ammo issues during missions. When hangar weapons are available, the blade will always be in the hangar";
+    
+    on = false;
+    
+    fn_click = function(){
+        on = !on;
+    }
+    
+}
+
+_y += _gap;
+
 _gap *= 0.35;
 
 tog_leg_random = place(obj_button_list, _x, _y);
@@ -192,7 +210,7 @@ with tog_gen_2{
 }
 
 _x += _gap;
-/*
+
 tog_gen_3 = place(obj_button_list, _x, _y);
 with tog_gen_3{
     
@@ -205,7 +223,7 @@ with tog_gen_3{
     image_xscale *= 0.45;
     
     fn_click_end = function(){
-        //obj_main.selected = obj_gameGen_2;
+        obj_main.selected = obj_gameGen_3;
     }
     
     array_push(src, id);
@@ -213,7 +231,7 @@ with tog_gen_3{
 }
 
 _x += _gap;
-
+/*
 tog_gen_3N = place(obj_button_list, _x, _y);
 with tog_gen_3N{
     

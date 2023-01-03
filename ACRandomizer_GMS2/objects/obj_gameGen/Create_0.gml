@@ -84,7 +84,27 @@ fn_randomize = function(){
             
             if(random(1) < obj_main.sld_armLEQ.baseValue){
             
-                wepLs.fn_select();
+                if(obj_main.tog_blade.on){
+                    
+                    var
+                    _arr = [];
+                    
+                    for(var _i = 0; _i < array_length(wepLs.parts); _i++){
+                        
+                        var
+                        _part = wepLs.parts[_i];
+                        
+                        if(_part.bladeL && _part.base){
+                            array_push(_arr, _part);
+                        }
+                        
+                    }
+                    
+                    wepLs.fn_select(arrayRand(_arr));
+                    
+                }else{
+                    wepLs.fn_select();
+                }
             
                 wTotal += wepLs.main.wCost;
                 aTotal += wepLs.main.wCost;

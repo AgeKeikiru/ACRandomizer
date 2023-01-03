@@ -1,0 +1,23 @@
+// 2023-01-03 14:14:28
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "CWI-BO-20";
+    tag = "Bomb Dispenser";
+    
+    wCost = 313;
+    eCost = 85;
+    
+    array_push(_this.parts, id);
+    
+}

@@ -7,7 +7,29 @@ _this = id;
 
 with place(obj_part){
         
-    name = "DOX-105";
+    name = "VREX-ST-1";
+    
+    wCost = 14;
+    eCost = 22;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "AOX-F/ST-6";
+    
+    wCost = 14;
+    eCost = 24;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "VREX-ST-12";
     
     wCost = 16;
     eCost = 24;
@@ -18,46 +40,11 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "DOX-125";
-    
-    wCost = 18;
-    eCost = 24;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "DOX-PG2";
-    
-    wCost = 16;
-    eCost = 24;
-    
-    base = false;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "LODD-8";
+    name = "VREX-WS-1";
     
     wCost = 8;
     eCost = 12;
     
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "DOX-ALM";
-    
-    wCost = 10;
-    eCost = 16;
-    
     base = false;
     
     array_push(_this.parts, id);
@@ -66,9 +53,9 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "VERTEX-750/W";
+    name = "AOX-X/WS-3";
     
-    wCost = 12;
+    wCost = 10;
     eCost = 19;
     
     array_push(_this.parts, id);
@@ -77,10 +64,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "LODD-BLAZER";
+    name = "AOX-ANA";
     
-    wCost = 18;
-    eCost = 38;
+    wCost = 21;
+    eCost = 85;
     
     array_push(_this.parts, id);
     
@@ -88,9 +75,20 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "VERTEX-124/EE";
+    name = "VREX-ND-2";
     
-    wCost = 27;
+    wCost = 18;
+    eCost = 75;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "VREX-F/ND-8";
+    
+    wCost = 22;
     eCost = 55;
     
     array_push(_this.parts, id);
@@ -99,10 +97,32 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "LODD-QHT";
+    name = "PLS-EMA";
     
-    wCost = 37;
-    eCost = 65;
+    wCost = 10;
+    eCost = 19;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "PLS-ROA";
+    
+    wCost = 18;
+    eCost = 37;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "PLS-SRA";
+    
+    wCost = 12;
+    eCost = 70;
     
     base = false;
     
@@ -112,10 +132,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "DOX-ELENA";
+    name = "PLS-SRA02";
     
-    wCost = 18;
-    eCost = 75;
+    wCost = 20;
+    eCost = 37;
     
     base = false;
     

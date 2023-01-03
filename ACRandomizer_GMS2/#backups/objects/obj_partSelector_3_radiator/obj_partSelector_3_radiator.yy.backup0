@@ -1,4 +1,9 @@
-/// @description Insert description here
+// 2023-01-03 14:09:23
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
 
 event_inherited();
 
@@ -7,21 +12,10 @@ _this = id;
 
 with place(obj_part){
         
-    name = "CGP-ROV6";
+    name = "RIX-CR10";
     
-    wCost = 300;
-    eLimit = 6000;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "CGP-ROV10";
-    
-    wCost = 240;
-    eLimit = 6560;
+    wCost = 125;
+    eCost = 124;
     
     array_push(_this.parts, id);
     
@@ -29,21 +23,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "MGP-VE8";
-    
-    wCost = 284;
-    eLimit = 6800;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "KGP-ZS4";
+    name = "RIX-CR11";
     
     wCost = 238;
-    eLimit = 7700;
+    eCost = 125;
     
     array_push(_this.parts, id);
     
@@ -51,10 +34,43 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "MGP-VE905";
+    name = "RMR-SA44";
     
-    wCost = 348;
-    eLimit = 9943;
+    wCost = 153;
+    eCost = 194;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RMR-SA77";
+    
+    wCost = 376;
+    eCost = 288;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RIX-CR14";
+    
+    wCost = 325;
+    eCost = 354;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RMR-ICICLE";
+    
+    wCost = 292;
+    eCost = 486;
     
     base = false;
     
@@ -64,21 +80,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "CGP-ROZ";
+    name = "RGI-KD99";
     
-    wCost = 450;
-    eLimit = 10500;
-    
-    array_push(_this.parts, id);
-    
-}
-
-with place(obj_part){
-        
-    name = "KGP-ZSV";
-    
-    wCost = 398;
-    eLimit = 8900;
+    wCost = 542;
+    eCost = 376;
     
     array_push(_this.parts, id);
     
@@ -86,10 +91,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "KGP-ZXV1";
+    name = "RIX-CR5000";
     
-    wCost = 645;
-    eLimit = 8900;
+    wCost = 775;
+    eCost = 525;
     
     base = false;
     
@@ -99,10 +104,10 @@ with place(obj_part){
 
 with place(obj_part){
         
-    name = "MGP-VEXM";
+    name = "RGI-KDA01";
     
-    wCost = 1450;
-    eLimit = 9250;
+    wCost = 403;
+    eCost = 462;
     
     base = false;
     

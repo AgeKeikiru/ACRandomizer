@@ -1,4 +1,9 @@
-/// @description Insert description here
+// 2023-01-03 13:25:35
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
 
 event_inherited();
 
@@ -210,20 +215,6 @@ _this = id;
         
         wCost = 906;
         eCost = 930;
-        
-        base = false;
-        
-        array_push(_this.parts, id);
-        
-    }
-    
-    with place(obj_part){
-        
-        name = "MAL-TEM";
-        tag = "Lightweight";
-        
-        wCost = 854;
-        eCost = 784;
         
         base = false;
         
