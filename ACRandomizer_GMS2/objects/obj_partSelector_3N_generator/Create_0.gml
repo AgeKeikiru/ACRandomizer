@@ -1,0 +1,122 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "CR-G69";
+    
+    wCost = 381;
+    eLimit = 7950;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-G78";
+    
+    wCost = 355;
+    eLimit = 8280;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "G01-LOTUS";
+    
+    wCost = 309;
+    eLimit = 8830;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-G84P";
+    
+    wCost = 576;
+    eLimit = 10990;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-G91";
+    
+    wCost = 645;
+    eLimit = 9990;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "FUDOH";
+    
+    wCost = 772;
+    eLimit = 9514;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "G02-MAGNOLIA";
+    
+    wCost = 515;
+    eLimit = 10350;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "KONGOH";
+    
+    wCost = 408;
+    eLimit = 11888;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "KUJAKU";
+    
+    wCost = 725;
+    eLimit = 11100;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "G03-ORCHID";
+    
+    wCost = 1110;
+    eLimit = 10000;
+    
+    array_push(_this.parts, id);
+    
+}

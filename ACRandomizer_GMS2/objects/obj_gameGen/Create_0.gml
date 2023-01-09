@@ -15,6 +15,8 @@ backRs = noone;
 backLs = noone;
 wepRs = noone;
 wepLs = noone;
+hngRs = noone;
+hngLs = noone;
 ops = noone;
 
 veto = "---";
@@ -79,6 +81,16 @@ fn_randomize = function(){
                 wTotal += wepRs.main.wCost;
                 aTotal += wepRs.main.wCost;
                 eTotal += wepRs.main.eCost;
+                
+                if(random(1) < obj_main.sld_hngEQ.baseValue){
+                    
+                    hngRs.fn_select();
+            
+                    wTotal += hngRs.main.wCost;
+                    aTotal += hngRs.main.wCost;
+                    eTotal += hngRs.main.eCost;
+                    
+                }
             
             }
             
@@ -109,6 +121,33 @@ fn_randomize = function(){
                 wTotal += wepLs.main.wCost;
                 aTotal += wepLs.main.wCost;
                 eTotal += wepLs.main.eCost;
+                
+                if(random(1) < obj_main.sld_hngEQ.baseValue){
+                    
+                    if(wepLs.main.hangar && (wepLs.alt == noone || wepLs.alt.hangar)){
+                        
+                        //move left weapon to hangar, and re-roll left weapon
+                        
+                        hngLs.main = wepLs.main;
+                        hngLs.alt = wepLs.alt;
+                        
+                        wepLs.fn_select();
+                        
+                        wTotal += wepLs.main.wCost;
+                        aTotal += wepLs.main.wCost;
+                        eTotal += wepLs.main.eCost;
+                        
+                    }else{
+                    
+                        hngLs.fn_select();
+                
+                        wTotal += hngLs.main.wCost;
+                        aTotal += hngLs.main.wCost;
+                        eTotal += hngLs.main.eCost;
+                    
+                    }
+                    
+                }
             
             }
         

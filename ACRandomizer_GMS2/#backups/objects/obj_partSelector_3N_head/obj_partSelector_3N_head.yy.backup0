@@ -1,0 +1,410 @@
+// 2023-01-09 16:12:56
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+    
+    name = "CR-H69S";
+    
+    wCost = 145;
+    eCost = 185;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-YH70S2";
+    
+    wCost = 197;
+    eCost = 164;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H01-WASP";
+    
+    wCost = 228;
+    eCost = 204;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H72S3";
+    
+    wCost = 179;
+    eCost = 280;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H73E";
+    
+    wCost = 184;
+    eCost = 444;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H02-WASP2";
+    
+    wCost = 262;
+    eCost = 338;
+    
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H81S4";
+    
+    wCost = 241;
+    eCost = 188;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H03-BEETLE";
+    
+    wCost = 468;
+    eCost = 180;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H84E2";
+    
+    wCost = 228;
+    eCost = 328;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H04-CICADA";
+    
+    wCost = 101;
+    eCost = 199;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-YH85SR";
+    
+    wCost = 315;
+    eCost = 421;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H05-HORNET";
+    
+    wCost = 387;
+    eCost = 462;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH06-LADYB";
+    
+    wCost = 435;
+    eCost = 248;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H97XS-EYE";
+    
+    wCost = 189;
+    eCost = 517;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H07-CRICKET";
+    
+    wCost = 141;
+    eCost = 479;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH08-MANTIS";
+    
+    wCost = 222;
+    eCost = 440;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H09-SPIDER";
+    
+    wCost = 343;
+    eCost = 304;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H95EE";
+    
+    wCost = 143;
+    eCost = 103;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H10-CICADA2";
+    
+    wCost = 230;
+    eCost = 340;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H98XS-EYE2";
+    
+    wCost = 330;
+    eCost = 590;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H11-QUEEN";
+    
+    wCost = 260;
+    eCost = 414;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH12-MAYFLY";
+    
+    wCost = 199;
+    eCost = 383;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H05XS-EYE3";
+    
+    wCost = 202;
+    eCost = 399;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H06SR2";
+    
+    wCost = 362;
+    eCost = 603;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH13-LONGHORN";
+    
+    wCost = 514;
+    eCost = 298;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH14-STING";
+    
+    wCost = 241;
+    eCost = 508;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH15-DRONE";
+    
+    wCost = 293;
+    eCost = 390;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "CR-H06XS-EYE4";
+    
+    wCost = 199;
+    eCost = 596;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "YH19-PILLBUG";
+    
+    wCost = 294;
+    eCost = 328;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+    
+    name = "H20-FIREFLY";
+    
+    wCost = 333;
+    eCost = 306;
+    
+    base = false;
+    radar = true;
+    
+    array_push(_this.parts, id);
+    
+}

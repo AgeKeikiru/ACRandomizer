@@ -1,4 +1,4 @@
-// 2023-01-03 16:16:31
+// 2023-01-08 10:44:57
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -23,3 +23,5 @@ radar = false;
 dualBack = false;
 wepArm = false;
 boostLeg = false;
+
+hangar = false;

@@ -18,3 +18,5 @@ radar = false;
 dualBack = false;
 wepArm = false;
 boostLeg = false;
+
+hangar = false;

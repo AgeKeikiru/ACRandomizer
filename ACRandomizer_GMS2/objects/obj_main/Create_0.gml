@@ -12,6 +12,7 @@ lst_gen = [];
 place(obj_gameGen_1);
 place(obj_gameGen_2);
 place(obj_gameGen_3);
+place(obj_gameGen_3N);
 
 var
 _x = 1050,
@@ -69,6 +70,17 @@ with sld_extEQ{
     baseName = "Extension EqR";
     tooltip = "Equip Rate. 0% means this category will always remain unequipped";
     fn_update(0.2);
+    
+}
+
+_y += _gap;
+
+sld_hngEQ = place(obj_button_slider, _x, _y);
+with sld_hngEQ{
+    
+    baseName = "Hangar EqR";
+    tooltip = "Equip Rate. 0% means this category will always remain unequipped";
+    fn_update(0.5);
     
 }
 
@@ -231,7 +243,7 @@ with tog_gen_3{
 }
 
 _x += _gap;
-/*
+
 tog_gen_3N = place(obj_button_list, _x, _y);
 with tog_gen_3N{
     
@@ -244,7 +256,7 @@ with tog_gen_3N{
     image_xscale *= 0.45;
     
     fn_click_end = function(){
-        //obj_main.selected = obj_gameGen_2;
+        obj_main.selected = obj_gameGen_3N;
     }
     
     array_push(src, id);
@@ -252,7 +264,7 @@ with tog_gen_3N{
 }
 
 _x += _gap;
-
+/*
 tog_gen_4 = place(obj_button_list, _x, _y);
 with tog_gen_4{
     

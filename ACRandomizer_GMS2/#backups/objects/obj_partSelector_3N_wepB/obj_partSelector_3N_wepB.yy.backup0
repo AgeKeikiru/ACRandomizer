@@ -1,0 +1,1088 @@
+// 2023-01-09 16:28:59
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+#region //missile
+
+    with place(obj_part){
+            
+        name = "CR-WB69M";
+        tag = "Small Missile";
+        
+        wCost = 221;
+        eCost = 205;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB01M-NYMPHE";
+        tag = "Small Missile";
+        
+        wCost = 303;
+        eCost = 270;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB72M2";
+        tag = "Small Missile";
+        
+        wCost = 422;
+        eCost = 255;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB04M-NYMPHE2";
+        tag = "Small Missile";
+        
+        wCost = 519;
+        eCost = 406;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "MAGORAGA";
+        tag = "Micro Missile";
+        
+        wCost = 311;
+        eCost = 435;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "KINNARA";
+        tag = "Micro Missile";
+        
+        wCost = 474;
+        eCost = 522;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "KARURA";
+        tag = "Micro Missile";
+        
+        wCost = 640;
+        eCost = 608;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB05M-SATYROS";
+        tag = "Middle Missile";
+        
+        wCost = 445;
+        eCost = 270;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB73MP";
+        tag = "Middle Missile";
+        
+        wCost = 649;
+        eCost = 203;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB73MV";
+        tag = "Vertical Missile";
+        
+        wCost = 581;
+        eCost = 314;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB06M-SPARTOI";
+        tag = "Dual Missile";
+        
+        wCost = 360;
+        eCost = 422;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB11M-HYDRA";
+        tag = "Multi Missile";
+        
+        wCost = 635;
+        eCost = 318;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB19M-HYDRA2";
+        tag = "Multi Missile";
+        
+        wCost = 464;
+        eCost = 300;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB75MT";
+        tag = "Triple Missile";
+        
+        wCost = 828;
+        eCost = 360;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB82MGT";
+        tag = "Ground Torpedo";
+        
+        wCost = 650;
+        eCost = 305;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB12M-EMPUSA";
+        tag = "Hi Act Missile";
+        
+        wCost = 599;
+        eCost = 506;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB20M-EMPUSA2";
+        tag = "Hi Act Missile";
+        
+        wCost = 545;
+        eCost = 418;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB21M-DRYAD";
+        tag = "Stealth Missile";
+        
+        wCost = 365;
+        eCost = 545;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB22M-DRYAD2";
+        tag = "Stealth Missile";
+        
+        wCost = 428;
+        eCost = 492;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB91MB";
+        tag = "Cluster Missile";
+        
+        wCost = 355;
+        eCost = 295;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB94MB2";
+        tag = "Cluster Missile";
+        
+        wCost = 525;
+        eCost = 353;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB85MPX";
+        tag = "Large Missile";
+        
+        wCost = 1368;
+        eCost = 1008;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "SYAKATSURA";
+        tag = "Micro Missile";
+        
+        wCost = 330;
+        eCost = 511;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB03MV";
+        tag = "Vertical Missile";
+        
+        wCost = 670;
+        eCost = 431;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB34M-ECHIDNA2";
+        tag = "Pursuit Missile";
+        
+        wCost = 891;
+        eCost = 411;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-YWB05MV2";
+        tag = "Vertical Missile";
+        
+        wCost = 690;
+        eCost = 445;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //rocket
+    
+    with place(obj_part){
+            
+        name = "CR-WB69RO";
+        tag = "Small Rocket";
+        
+        wCost = 199;
+        eCost = 56;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB72RO2";
+        tag = "Small Rocket";
+        
+        wCost = 411;
+        eCost = 56;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB75RP";
+        tag = "Middle Rocket";
+        
+        wCost = 351;
+        eCost = 108;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB07RO-ORTHOS";
+        tag = "Middle Rocket";
+        
+        wCost = 457;
+        eCost = 172;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB78RP2";
+        tag = "Middle Rocket";
+        
+        wCost = 609;
+        eCost = 133;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB82RP3";
+        tag = "Middle Rocket";
+        
+        wCost = 727;
+        eCost = 152;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB13RO-SPHINX";
+        tag = "Triple Rocket";
+        
+        wCost = 424;
+        eCost = 245;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB23RO-CACUS";
+        tag = "Rocket (AST)";
+        
+        wCost = 593;
+        eCost = 266;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB85RPX";
+        tag = "Large Rocket";
+        
+        wCost = 806;
+        eCost = 98;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //cannon
+    
+    with place(obj_part){
+            
+        name = "CR-WB69CG";
+        tag = "Chain Gun";
+        
+        wCost = 542;
+        eCost = 515;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB72CGL";
+        tag = "Chain Gun";
+        
+        wCost = 477;
+        eCost = 422;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB75SG";
+        tag = "Slug Gun";
+        
+        wCost = 1179;
+        eCost = 444;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB82SG2";
+        tag = "Slug Gun";
+        
+        wCost = 744;
+        eCost = 387;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB87LG";
+        tag = "Linear Gun";
+        
+        wCost = 903;
+        eCost = 518;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB91LGL";
+        tag = "Linear Gun";
+        
+        wCost = 450;
+        eCost = 367;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB14RG-LADON";
+        tag = "Railgun";
+        
+        wCost = 583;
+        eCost = 645;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB24RG-LADON2";
+        tag = "Railgun";
+        
+        wCost = 892;
+        eCost = 813;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB78GL";
+        tag = "Grenade Launcher";
+        
+        wCost = 1054;
+        eCost = 342;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB87GLL";
+        tag = "Grenade Launcher";
+        
+        wCost = 742;
+        eCost = 186;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB08PL-SKYLLA";
+        tag = "Plasma Cannon";
+        
+        wCost = 988;
+        eCost = 804;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB02L-GERYON";
+        tag = "Laser Cannon";
+        
+        wCost = 852;
+        eCost = 405;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB15L-GERYON2";
+        tag = "Laser Cannon";
+        
+        wCost = 385;
+        eCost = 924;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB09PU-LAMIA";
+        tag = "Pulse Cannon";
+        
+        wCost = 482;
+        eCost = 1118;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB16PU-LAMIA2";
+        tag = "Pulse Cannon";
+        
+        wCost = 521;
+        eCost = 695;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB25PU-LAMIA3";
+        tag = "Pulse Cannon";
+        
+        wCost = 577;
+        eCost = 1305;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB26O-HARPY";
+        tag = "Orbit Cannon";
+        
+        wCost = 527;
+        eCost = 495;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB27O-HARPY2";
+        tag = "Orbit Cannon";
+        
+        wCost = 727;
+        eCost = 533;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB03CGH";
+        tag = "Chaingun";
+        
+        wCost = 702;
+        eCost = 695;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB03LGL2";
+        tag = "Linear Gun";
+        
+        wCost = 1029;
+        eCost = 567;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB33PL-SKYLLA2";
+        tag = "Plasma Cannon";
+        
+        wCost = 688;
+        eCost = 443;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB32L-CERBERUS";
+        tag = "Dual Laser Cannon";
+        
+        wCost = 1292;
+        eCost = 1165;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YMB35L-GERYON3";
+        tag = "Laser Cannon";
+        
+        wCost = 809;
+        eCost = 924;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //utility
+    
+    with place(obj_part){
+            
+        name = "CR-WB69RA";
+        tag = "Radar";
+        
+        wCost = 125;
+        eCost = 199;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB73RA2";
+        tag = "Radar";
+        
+        wCost = 157;
+        eCost = 266;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB03R-SIREN";
+        tag = "Radar";
+        
+        wCost = 205;
+        eCost = 383;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB10R-SIREN2";
+        tag = "Radar";
+        
+        wCost = 237;
+        eCost = 430;
+        
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB17R-SIREN3";
+        tag = "Radar";
+        
+        wCost = 336;
+        eCost = 375;
+        
+        base = false;
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WB85RA3";
+        tag = "Radar";
+        
+        wCost = 178;
+        eCost = 241;
+        
+        base = false;
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB28R-SIREN4";
+        tag = "Radar";
+        
+        wCost = 438;
+        eCost = 562;
+        
+        base = false;
+        radar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //dual backs
+    
+    with place(obj_part){
+            
+        name = "WB18M-CENTAUR";
+        tag = "Vertical Missiles";
+        
+        wCost = 1328;
+        eCost = 514;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW89M";
+        tag = "Dual Missile";
+        
+        wCost = 1044;
+        eCost = 633;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW94M2";
+        tag = "Dual Missile";
+        
+        wCost = 1395;
+        eCost = 833;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB29M-ECHIDNA";
+        tag = "Pursuit Missile";
+        
+        wCost = 1332;
+        eCost = 545;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW78R";
+        tag = "Dual Rocket";
+        
+        wCost = 1003;
+        eCost = 312;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW91RT";
+        tag = "Triple Rocket";
+        
+        wCost = 1136;
+        eCost = 388;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW78C";
+        tag = "Dual Chaingun";
+        
+        wCost = 1067;
+        eCost = 306;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW98G";
+        tag = "Dual Grenade Launcher";
+        
+        wCost = 1242;
+        eCost = 565;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WBW98LX";
+        tag = "Dual Laser Cannon";
+        
+        wCost = 1292;
+        eCost = 1165;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB30Q-CHIMERA";
+        tag = "Quartet Cannon";
+        
+        wCost = 1556;
+        eCost = 875;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YASYA";
+        tag = "Dual Orbit Cannon";
+        
+        wCost = 1117;
+        eCost = 920;
+        
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WB31B-PEGASUS";
+        tag = "Add Booster";
+        
+        wCost = 1120;
+        eCost = 495;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-YWBW06MT";
+        tag = "Triple Missile";
+        
+        wCost = 1110;
+        eCost = 656;
+        
+        base = false;
+        dualBack = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion

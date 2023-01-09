@@ -1,0 +1,1097 @@
+/// @description Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+#region //rifle
+
+    with place(obj_part){
+            
+        name = "CR-WR69R";
+        tag = "Rifle";
+        
+        wCost = 365;
+        eCost = 106;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR73R2";
+        tag = "Rifle";
+        
+        wCost = 416;
+        eCost = 123;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR01R-SHADOW";
+        tag = "Rifle";
+        
+        wCost = 535;
+        eCost = 100;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR1OR-MOLD";
+        tag = "Rifle (AST)";
+        
+        wCost = 440;
+        eCost = 118;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR76RA";
+        tag = "Rifle (AST)";
+        
+        wCost = 652;
+        eCost = 165;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR84RA2";
+        tag = "Rifle (AST)";
+        
+        wCost = 531;
+        eCost = 188;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH01R-GAST";
+        tag = "Rifle (AST)";
+        
+        wCost = 465;
+        eCost = 153;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR88RB";
+        tag = "Rifle (AST)";
+        
+        wCost = 471;
+        eCost = 265;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR14-PHANTOM";
+        tag = "Rifle (AST)";
+        
+        wCost = 441;
+        eCost = 235;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR93RL";
+        tag = "Linear Rifle";
+        
+        wCost = 688;
+        eCost = 322;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR73RS";
+        tag = "Sniper Rifle";
+        
+        wCost = 594;
+        eCost = 105;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR81RS2";
+        tag = "Sniper Rifle";
+        
+        wCost = 633;
+        eCost = 118;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR88RS3";
+        tag = "Sniper Rifle";
+        
+        wCost = 710;
+        eCost = 165;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH02RS-WYRM";
+        tag = "Sniper Rifle";
+        
+        wCost = 610;
+        eCost = 78;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR11RS-GARUM";
+        tag = "EN Sniper Rifle";
+        
+        wCost = 513;
+        eCost = 757;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH08RS-FENRIR";
+        tag = "EN Sniper Rifle";
+        
+        wCost = 1380;
+        eCost = 118;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-YWH05R3";
+        tag = "Rifle";
+        
+        wCost = 403;
+        eCost = 139;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YWH03RS-SKOLL";
+        tag = "EN Sniper Rifle";
+        
+        wCost = 428;
+        eCost = 146;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //machine gun
+    
+    with place(obj_part){
+            
+        name = "WR02M-PIXIE";
+        tag = "Machine Gun";
+        
+        wCost = 387;
+        eCost = 50;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR69M";
+        tag = "Machine Gun";
+        
+        wCost = 472;
+        eCost = 89;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR04M-PIXIE2";
+        tag = "Machine Gun";
+        
+        wCost = 503;
+        eCost = 106;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR07M-PIXIE3";
+        tag = "Machine Gun";
+        
+        wCost = 360;
+        eCost = 121;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH79M2";
+        tag = "Machine Gun";
+        
+        wCost = 568;
+        eCost = 61;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH03M-FINGER";
+        tag = "Machine Gun";
+        
+        wCost = 202;
+        eCost = 241;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH05M-SYLPH";
+        tag = "Machine Gun";
+        
+        wCost = 259;
+        eCost = 128;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH10M-SILKY";
+        tag = "EN Machinegun";
+        
+        wCost = 598;
+        eCost = 446;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YWH13M-NIX";
+        tag = "Machinegun";
+        
+        wCost = 410;
+        eCost = 109;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //handgun
+    
+    with place(obj_part){
+            
+        name = "CR-WR88H";
+        tag = "Handgun";
+        
+        wCost = 170;
+        eCost = 128;
+        
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH69H";
+        tag = "Handgun";
+        
+        wCost = 146;
+        eCost = 98;
+        
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH73H2";
+        tag = "Handgun";
+        
+        wCost = 267;
+        eCost = 78;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR03H-GHOST";
+        tag = "Handgun";
+        
+        wCost = 184;
+        eCost = 60;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH79H3";
+        tag = "Handgun";
+        
+        wCost = 298;
+        eCost = 305;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR06H-GHOST2";
+        tag = "Handgun";
+        
+        wCost = 235;
+        eCost = 106;
+        
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH01HP";
+        tag = "Handgun";
+        
+        wCost = 142;
+        eCost = 89;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH09H-WRAITH";
+        tag = "Handgun";
+        
+        wCost = 139;
+        eCost = 99;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //bazooka
+    
+    with place(obj_part){
+            
+        name = "CR-WR76B";
+        tag = "Bazooka";
+        
+        wCost = 804;
+        eCost = 36;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR81B2";
+        tag = "Bazooka";
+        
+        wCost = 945;
+        eCost = 58;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR93B3";
+        tag = "Bazooka";
+        
+        wCost = 775;
+        eCost = 49;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR13B-GIANT";
+        tag = "Spread Bazooka";
+        
+        wCost = 1020;
+        eCost = 79;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR17B-GIANT2";
+        tag = "Spread Bazooka";
+        
+        wCost = 824;
+        eCost = 102;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH05BP";
+        tag = "Bazooka";
+        
+        wCost = 1210;
+        eCost = 64;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //shotgun
+    
+    with place(obj_part){
+            
+        name = "CR-WR84S";
+        tag = "Shotgun";
+        
+        wCost = 533;
+        eCost = 82;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH76S";
+        tag = "Shotgun";
+        
+        wCost = 410;
+        eCost = 64;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR15S-WYVERN";
+        tag = "Energy Shotgun";
+        
+        wCost = 580;
+        eCost = 367;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR23S-WYVERN2";
+        tag = "Energy Shotgun";
+        
+        wCost = 635;
+        eCost = 398;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH01SP";
+        tag = "Shotgun";
+        
+        wCost = 691;
+        eCost = 92;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //explosive
+    
+    with place(obj_part){
+            
+        name = "GACHIRIN";
+        tag = "Flamethrower";
+        
+        wCost = 531;
+        eCost = 355;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "NICHIRIN";
+        tag = "Flamethrower";
+        
+        wCost = 707;
+        eCost = 427;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR84HNM";
+        tag = "Hand Missile";
+        
+        wCost = 715;
+        eCost = 349;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR84HNR";
+        tag = "Hand Rocket";
+        
+        wCost = 558;
+        eCost = 72;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR93HRNP";
+        tag = "Hand Large Rocket";
+        
+        wCost = 715;
+        eCost = 118;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR81G";
+        tag = "Grenade Rifle";
+        
+        wCost = 962;
+        eCost = 225;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR88G2";
+        tag = "Grenade Rifle";
+        
+        wCost = 632;
+        eCost = 170;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WH98GL";
+        tag = "Grenade Launcher";
+        
+        wCost = 317;
+        eCost = 106;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-YWR03HNR";
+        tag = "Hand Rocket";
+        
+        wCost = 495;
+        eCost = 54;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion
+
+#region //energy weapons
+    
+    with place(obj_part){
+            
+        name = "WR08PU-ROC";
+        tag = "Pulse Rifle";
+        
+        wCost = 193;
+        eCost = 256;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR12PU-ROC2";
+        tag = "Pulse Rifle";
+        
+        wCost = 289;
+        eCost = 357;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR21PU-ROC3";
+        tag = "Pulse Rifle";
+        
+        wCost = 355;
+        eCost = 522;
+        
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR18PU-DEMON";
+        tag = "Dual Pulse Rifle";
+        
+        wCost = 376;
+        eCost = 515;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR05L-SHADE";
+        tag = "Laser Rifle";
+        
+        wCost = 588;
+        eCost = 398;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR19SL-HOLLOW";
+        tag = "Laser Rifle";
+        
+        wCost = 1120;
+        eCost = 306;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "CR-WR98L";
+        tag = "Laser Rifle";
+        
+        wCost = 615;
+        eCost = 688;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YWH07-DRAGON";
+        tag = "Laser Rifle";
+        
+        wCost = 461;
+        eCost = 188;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR24L-SHADE2";
+        tag = "Laser Rifle";
+        
+        wCost = 677;
+        eCost = 598;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR16DL-SKULL";
+        tag = "Dual Laser Rifle";
+        
+        wCost = 995;
+        eCost = 779;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR25DL-SKULL2";
+        tag = "Dual Laser Rifle";
+        
+        wCost = 702;
+        eCost = 842;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH04HL-KRSW";
+        tag = "Hi Laser Rifle";
+        
+        wCost = 1400;
+        eCost = 722;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR09HL-SPIRIT";
+        tag = "Hi Laser Rifle";
+        
+        wCost = 1238;
+        eCost = 815;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR20PL-OGRE";
+        tag = "Plasma Rifle";
+        
+        wCost = 1155;
+        eCost = 656;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WR22PL-OGRE2";
+        tag = "Plasma Rifle";
+        
+        wCost = 899;
+        eCost = 560;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH06PL-ORC";
+        tag = "Plasma Rifle";
+        
+        wCost = 376;
+        eCost = 315;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH11PU-PERYTON";
+        tag = "Pulse Rifle";
+        
+        wCost = 144;
+        eCost = 231;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "WH12PL-ETTIN";
+        tag = "Dual Plasma Rifle";
+        
+        wCost = 1532;
+        eCost = 912;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YWH14PU-ROC4";
+        tag = "Pulse Rifle";
+        
+        wCost = 348;
+        eCost = 489;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "YWH16HR-PYTHON";
+        tag = "Hand Railgun";
+        
+        wCost = 500;
+        eCost = 600;
+        
+        base = false;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+#endregion
+
+#region //blade
+
+    with place(obj_part){
+            
+        name = "RASETSU";
+        tag = "Blade";
+        
+        wCost = 238;
+        eCost = 13;
+        
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "ENMA";
+        tag = "Blade";
+        
+        wCost = 376;
+        eCost = 24;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+    
+    with place(obj_part){
+            
+        name = "NIOH";
+        tag = "Blade";
+        
+        wCost = 335;
+        eCost = 8;
+        
+        base = false;
+        hangar = true;
+        
+        array_push(_this.parts, id);
+        
+    }
+
+#endregion

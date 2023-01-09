@@ -1,0 +1,381 @@
+// 2023-01-09 16:25:22
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "ANOKU";
+    tag = "Turn Booster";
+    
+    wCost = 412;
+    eCost = 257;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E04BB-ANGLER";
+    tag = "Back Booster";
+    
+    wCost = 341;
+    eCost = 243;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E08BM-REMORA";
+    tag = "Multi Booster";
+    
+    wCost = 305;
+    eCost = 258;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E98HB";
+    tag = "Hover Booster";
+    
+    wCost = 288;
+    eCost = 376;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E73RM";
+    tag = "Relation Missile";
+    
+    wCost = 130;
+    eCost = 158;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E02RM-GAR";
+    tag = "Relation Missile";
+    
+    wCost = 260;
+    eCost = 180;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E84RM2";
+    tag = "Relation Missile";
+    
+    wCost = 331;
+    eCost = 278;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E06RM-GAR2";
+    tag = "Relation Missile";
+    
+    wCost = 301;
+    eCost = 206;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E92RM3";
+    tag = "Relation Missile";
+    
+    wCost = 399;
+    eCost = 253;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E96RMG";
+    tag = "Relation Missile";
+    
+    wCost = 405;
+    eCost = 377;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "JIKYOH";
+    tag = "Relation Missile";
+    
+    wCost = 359;
+    eCost = 327;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "FUNI";
+    tag = "Relation Missile";
+    
+    wCost = 224;
+    eCost = 425;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E81AM";
+    tag = "Anti Missile";
+    
+    wCost = 164;
+    eCost = 130;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E90AM2";
+    tag = "Anti Missile";
+    
+    wCost = 227;
+    eCost = 164;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E07AM-MORAY";
+    tag = "Anti Missile";
+    
+    wCost = 312;
+    eCost = 117;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "SUIGETSU";
+    tag = "Anti Missile";
+    
+    wCost = 197;
+    eCost = 412;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RURI";
+    tag = "Missile Counter";
+    
+    wCost = 85;
+    eCost = 142;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RENGA";
+    tag = "Missile Counter";
+    
+    wCost = 294;
+    eCost = 202;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RYUHZU";
+    tag = "Shell Magazine";
+    
+    wCost = 219;
+    eCost = 34;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "BYAKUE";
+    tag = "Shell Magazine";
+    
+    wCost = 288;
+    eCost = 52;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E01MG-ROE";
+    tag = "Energy Magazine";
+    
+    wCost = 125;
+    eCost = 281;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E05MG-ROE2";
+    tag = "Energy Magazine";
+    
+    wCost = 245;
+    eCost = 474;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E69SS";
+    tag = "Side Shield";
+    
+    wCost = 175;
+    eCost = 4;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-E82SS2";
+    tag = "Side Shield";
+    
+    wCost = 255;
+    eCost = 6;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "E03S-TURBOT";
+    tag = "Side Shield";
+    
+    wCost = 132;
+    eCost = 97;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "IWATO";
+    tag = "Side Shield";
+    
+    wCost = 188;
+    eCost = 132;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "SAISUI";
+    tag = "Energy Pack";
+    
+    wCost = 498;
+    eCost = 54;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "JIREN";
+    tag = "Energy Pack";
+    
+    wCost = 412;
+    eCost = 77;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}

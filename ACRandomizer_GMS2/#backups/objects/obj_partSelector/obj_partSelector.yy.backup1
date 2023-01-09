@@ -1,4 +1,4 @@
-// 2022-12-26 19:40:11
+// 2022-12-26 19:41:08
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -32,6 +32,7 @@ fn_draw = function(){
     draw_text_transformed(x + 5, y + 30, main.tag, 0.8, 0.8, 0);
     
     draw_text(x, y + 55, alt.name);
+    draw_text_transformed(x + 5, y + 70, alt.tag, 0.8, 0.8, 0);
     
 }
 

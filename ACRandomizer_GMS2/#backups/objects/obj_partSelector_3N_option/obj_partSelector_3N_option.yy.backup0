@@ -1,0 +1,221 @@
+// 2023-01-09 16:37:09
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+            
+    name = "O01-AMINO";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O69ES";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O69SS";
+    
+    oCost = 3;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O71EC";
+    
+    oCost = 4;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "KISSYOH";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O75LA";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O79L+";
+    
+    oCost = 3;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O02-ORGANELLE";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O03-CODON";
+    
+    oCost = 4;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O83ES+";
+    
+    oCost = 1;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O07-PRIMER";
+    
+    oCost = 3;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O04-GOLGI";
+    
+    oCost = 3;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O05-HISTON";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O06-PHAGE";
+    
+    oCost = 4;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "O08-RIBOSE";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O86R+";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "MARISHI";
+    
+    oCost = 2;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "CR-O94ESS";
+    
+    oCost = 1;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+            
+    name = "KANGI";
+    
+    oCost = 2;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}

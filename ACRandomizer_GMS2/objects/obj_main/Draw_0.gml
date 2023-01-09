@@ -24,7 +24,9 @@ with selected{
         backRs,
         backLs,
         wepRs,
-        wepLs
+        wepLs,
+        hngRs,
+        hngLs
     ];
     
     for(var _i = 0; _i < array_length(_arr); _i++){

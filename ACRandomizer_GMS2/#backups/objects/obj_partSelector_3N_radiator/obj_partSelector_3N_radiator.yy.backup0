@@ -1,0 +1,129 @@
+// 2023-01-09 16:20:44
+#event properties (no comments/etc. here are saved)
+parent_index = obj_partSelector;
+uses_physics = false;
+
+#event create Insert description here
+
+event_inherited();
+
+var
+_this = id;
+
+with place(obj_part){
+        
+    name = "CR-R69";
+    
+    wCost = 318;
+    eCost = 1008;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-R76";
+    
+    wCost = 413;
+    eCost = 1299;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "R01-HAZEL";
+    
+    wCost = 346;
+    eCost = 1121;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "R02-HAZEL2";
+    
+    wCost = 440;
+    eCost = 1527;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "R03-LINDEN";
+    
+    wCost = 571;
+    eCost = 1076;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "ANANDA";
+    
+    wCost = 476;
+    eCost = 1168;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "R04-LAUREL";
+    
+    wCost = 606;
+    eCost = 1235;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "CR-R92";
+    
+    wCost = 520;
+    eCost = 1726;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "RAGORA";
+    
+    wCost = 647;
+    eCost = 1468;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
+
+with place(obj_part){
+        
+    name = "FURUNA";
+    
+    wCost = 998;
+    eCost = 2102;
+    
+    base = false;
+    
+    array_push(_this.parts, id);
+    
+}
