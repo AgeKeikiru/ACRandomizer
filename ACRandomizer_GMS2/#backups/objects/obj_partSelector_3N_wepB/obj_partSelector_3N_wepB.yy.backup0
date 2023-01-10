@@ -1,4 +1,4 @@
-// 2023-01-09 16:28:59
+// 2023-01-09 21:37:17
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;

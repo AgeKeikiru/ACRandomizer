@@ -82,7 +82,7 @@ fn_randomize = function(){
                 aTotal += wepRs.main.wCost;
                 eTotal += wepRs.main.eCost;
                 
-                if(random(1) < obj_main.sld_hngEQ.baseValue){
+                if(instance_exists(hngRs) && random(1) < obj_main.sld_hngEQ.baseValue){
                     
                     hngRs.fn_select();
             
@@ -122,9 +122,9 @@ fn_randomize = function(){
                 aTotal += wepLs.main.wCost;
                 eTotal += wepLs.main.eCost;
                 
-                if(random(1) < obj_main.sld_hngEQ.baseValue){
+                if(instance_exists(hngLs) && random(1) < obj_main.sld_hngEQ.baseValue){
                     
-                    if(wepLs.main.hangar && (wepLs.alt == noone || wepLs.alt.hangar)){
+                    if(wepLs.main.hangar && (wepLs.alt == obj_main.noPart || wepLs.alt.hangar)){
                         
                         //move left weapon to hangar, and re-roll left weapon
                         
@@ -215,7 +215,7 @@ fn_randomize = function(){
             var
             _part = cores.parts[_i];
             
-            if(_part.wLimit >= aTotal){
+            if(_part.wLimit >= aTotal && (!instance_exists(hngRs) || _part.hangar || (hngRs.main == obj_main.noPart && hngLs.main == obj_main.noPart))){
                 array_push(_arr, _part);
             }
             
@@ -466,6 +466,8 @@ fn_randomize = function(){
         veto = arrayRand(vetos);
     
     #endregion
+    
+    show_debug_message(string(wTotal) + "/" + string(legs.main.wLimit));
     
     if(_fail){
         fn_randomize();

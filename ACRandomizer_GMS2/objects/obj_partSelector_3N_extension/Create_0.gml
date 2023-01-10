@@ -62,7 +62,7 @@ with place(obj_part){
     name = "CR-E73RM";
     tag = "Relation Missile";
     
-    wCost = 130;
+    wCost = 144;
     eCost = 158;
     
     array_push(_this.parts, id);
@@ -74,7 +74,7 @@ with place(obj_part){
     name = "E02RM-GAR";
     tag = "Relation Missile";
     
-    wCost = 260;
+    wCost = 289;
     eCost = 180;
     
     base = false;
@@ -88,7 +88,7 @@ with place(obj_part){
     name = "CR-E84RM2";
     tag = "Relation Missile";
     
-    wCost = 331;
+    wCost = 368;
     eCost = 278;
     
     base = false;
@@ -102,7 +102,7 @@ with place(obj_part){
     name = "E06RM-GAR2";
     tag = "Relation Missile";
     
-    wCost = 301;
+    wCost = 334;
     eCost = 206;
     
     base = false;
@@ -116,7 +116,7 @@ with place(obj_part){
     name = "CR-E92RM3";
     tag = "Relation Missile";
     
-    wCost = 399;
+    wCost = 443;
     eCost = 253;
     
     base = false;
@@ -130,7 +130,7 @@ with place(obj_part){
     name = "CR-E96RMG";
     tag = "Relation Missile";
     
-    wCost = 405;
+    wCost = 450;
     eCost = 377;
     
     array_push(_this.parts, id);
@@ -142,7 +142,7 @@ with place(obj_part){
     name = "JIKYOH";
     tag = "Relation Missile";
     
-    wCost = 359;
+    wCost = 399;
     eCost = 327;
     
     base = false;
@@ -156,7 +156,7 @@ with place(obj_part){
     name = "FUNI";
     tag = "Relation Missile";
     
-    wCost = 224;
+    wCost = 249;
     eCost = 425;
     
     base = false;

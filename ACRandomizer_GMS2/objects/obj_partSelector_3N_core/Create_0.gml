@@ -9,7 +9,7 @@ with place(obj_part){
     
     name = "CR-C69U";
     
-    wCost = 874;
+    wCost = 921;
     eCost = 1094;
     
     wLimit = 3441;
@@ -28,7 +28,7 @@ with place(obj_part){
     wCost = 1240;
     eCost = 1371;
     
-    wLimit = 3528;
+    wLimit = 3360;
     oLimit = 18;
     
     array_push(_this.parts, id);
@@ -39,7 +39,7 @@ with place(obj_part){
     
     name = "CR-C75U2";
     
-    wCost = 1035;
+    wCost = 1090;
     eCost = 925;
     
     wLimit = 3408;
@@ -56,7 +56,7 @@ with place(obj_part){
     name = "RAKAN";
     
     wCost = 833;
-    eCost = 1091;
+    eCost = 1149;
     
     wLimit = 3079;
     oLimit = 19;
@@ -72,7 +72,7 @@ with place(obj_part){
     name = "C04-ATLAS";
     
     wCost = 1182;
-    eCost = 1205;
+    eCost = 1269;
     
     wLimit = 3388;
     oLimit = 16;
@@ -90,7 +90,7 @@ with place(obj_part){
     wCost = 1283;
     eCost = 1082;
     
-    wLimit = 3448;
+    wLimit = 3284;
     oLimit = 17;
     
     base = false;
@@ -103,7 +103,7 @@ with place(obj_part){
     
     name = "CR-C90U3";
     
-    wCost = 1116;
+    wCost = 1175;
     eCost = 1124;
     
     wLimit = 3668;
@@ -123,7 +123,7 @@ with place(obj_part){
     wCost = 1005;
     eCost = 1342;
     
-    wLimit = 3027;
+    wLimit = 2883;
     oLimit = 20;
     
     array_push(_this.parts, id);
@@ -135,7 +135,7 @@ with place(obj_part){
     name = "C03-HELIOS";
     
     wCost = 945;
-    eCost = 1344;
+    eCost = 1415;
     
     wLimit = 2920;
     oLimit = 18;
@@ -149,7 +149,7 @@ with place(obj_part){
     name = "CR-C84O/UL";
     
     wCost = 989;
-    eCost = 1183;
+    eCost = 1246;
     
     wLimit = 3134;
     oLimit = 18;
@@ -164,7 +164,7 @@ with place(obj_part){
     
     name = "YC07-CRONUS";
     
-    wCost = 760;
+    wCost = 801;
     eCost = 1191;
     
     wLimit = 3305;
@@ -184,7 +184,7 @@ with place(obj_part){
     wCost = 1110;
     eCost = 1221;
     
-    wLimit = 3072;
+    wLimit = 2926;
     oLimit = 19;
     
     base = false;
@@ -198,7 +198,7 @@ with place(obj_part){
     name = "CR-C77O/U";
     
     wCost = 1321;
-    eCost = 923;
+    eCost = 972;
     
     wLimit = 3663;
     oLimit = 13;
@@ -213,7 +213,7 @@ with place(obj_part){
     
     name = "CR-C83UA";
     
-    wCost = 1245;
+    wCost = 1311;
     eCost = 786;
     
     wLimit = 4079;
@@ -232,7 +232,7 @@ with place(obj_part){
     wCost = 1513;
     eCost = 935;
     
-    wLimit = 4020;
+    wLimit = 3829;
     oLimit = 16;
     
     base = false;
@@ -246,7 +246,7 @@ with place(obj_part){
     name = "C06-EOS";
     
     wCost = 1404;
-    eCost = 878;
+    eCost = 925;
     
     wLimit = 3751;
     oLimit = 15;

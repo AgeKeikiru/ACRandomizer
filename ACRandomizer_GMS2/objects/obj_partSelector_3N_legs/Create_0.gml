@@ -12,8 +12,8 @@ _this = id;
         name = "CR-LH69S";
         tag = "Middleweight Bipedal";
         
-        eCost = 1744;
-        wLimit = 6345;
+        eCost = 1938;
+        wLimit = 6044;
         
         array_push(_this.parts, id);
         
@@ -24,8 +24,8 @@ _this = id;
         name = "LH01-LYNX";
         tag = "Middleweight Bipedal";
         
-        eCost = 2065;
-        wLimit = 5759;
+        eCost = 2295;
+        wLimit = 5485;
         
         array_push(_this.parts, id);
         
@@ -36,8 +36,8 @@ _this = id;
         name = "LH02-LYNX2";
         tag = "Middleweight Bipedal";
         
-        eCost = 2325;
-        wLimit = 5951;
+        eCost = 2583;
+        wLimit = 5677;
         
         array_push(_this.parts, id);
         
@@ -49,7 +49,7 @@ _this = id;
         tag = "Middleweight Bipedal";
         
         eCost = 1627;
-        wLimit = 6084;
+        wLimit = 5794;
         
         array_push(_this.parts, id);
         
@@ -60,7 +60,7 @@ _this = id;
         name = "CR-LH73SSA";
         tag = "Middleweight Bipedal";
         
-        eCost = 1657;
+        eCost = 1667;
         wLimit = 5814;
         
         array_push(_this.parts, id);
@@ -72,8 +72,8 @@ _this = id;
         name = "CR-LH80S2";
         tag = "Middleweight Bipedal";
         
-        eCost = 1639;
-        wLimit = 5907;
+        eCost = 1821;
+        wLimit = 5626;
         
         array_push(_this.parts, id);
         
@@ -84,8 +84,8 @@ _this = id;
         name = "LH05-COUGAR";
         tag = "Middleweight Bipedal";
         
-        eCost = 2427;
-        wLimit = 6575;
+        eCost = 2697;
+        wLimit = 6263;
         
         base = false;
         
@@ -99,7 +99,7 @@ _this = id;
         tag = "Middleweight Bipedal";
         
         eCost = 1391;
-        wLimit = 6312;
+        wLimit = 6011;
         
         base = false;
         
@@ -113,7 +113,7 @@ _this = id;
         tag = "Middleweight Bipedal";
         
         eCost = 1510;
-        wLimit = 5891;
+        wLimit = 5610;
         
         base = false;
         
@@ -141,7 +141,7 @@ _this = id;
         tag = "Middleweight Bipedal";
         
         eCost = 2049;
-        wLimit = 6008;
+        wLimit = 5722;
         
         base = false;
         
@@ -232,7 +232,7 @@ _this = id;
         name = "LH10-JAGUAR2";
         tag = "Lightweight Bipedal";
         
-        eCost = 1460;
+        eCost = 2460;
         wLimit = 5200;
         
         base = false;
@@ -260,8 +260,8 @@ _this = id;
         name = "YLH11-VIXEN";
         tag = "Lightweight Bipedal";
         
-        eCost = 2150;
-        wLimit = 1177;
+        eCost = 2934;
+        wLimit = 5132;
         
         base = false;
         
@@ -278,7 +278,7 @@ _this = id;
         name = "CR-LH77A";
         tag = "Heavyweight Bipedal";
         
-        eCost = 1787;
+        eCost = 1985;
         wLimit = 7321;
         
         array_push(_this.parts, id);
@@ -290,7 +290,7 @@ _this = id;
         name = "LH08-JACKAL";
         tag = "Heavyweight Bipedal";
         
-        eCost = 1654;
+        eCost = 1838;
         wLimit = 6942;
         
         array_push(_this.parts, id);
@@ -302,7 +302,7 @@ _this = id;
         name = "CR-LH81AP";
         tag = "Heavyweight Bipedal";
         
-        eCost = 2038;
+        eCost = 2264;
         wLimit = 8220;
         
         base = false;
@@ -316,7 +316,7 @@ _this = id;
         name = "CR-LH94A2";
         tag = "Heavyweight Bipedal";
         
-        eCost = 1705;
+        eCost = 1894;
         wLimit = 6384;
         
         base = false;
@@ -330,7 +330,7 @@ _this = id;
         name = "LH12-LYCAON";
         tag = "Heavyweight Bipedal";
         
-        eCost = 2118;
+        eCost = 2353;
         wLimit = 6633;
         
         base = false;
@@ -345,7 +345,7 @@ _this = id;
         tag = "Heavyweight Bipedal";
         
         eCost = 1982;
-        wLimit = 7366;
+        wLimit = 7015;
         
         base = false;
         
@@ -358,7 +358,7 @@ _this = id;
         name = "LH13-JACKAL2";
         tag = "Heavyweight Bipedal";
         
-        eCost = 2147;
+        eCost = 2386;
         wLimit = 7866;
         
         base = false;
@@ -376,7 +376,7 @@ _this = id;
         name = "LR01-GOAT";
         tag = "Reverse Joint";
         
-        eCost = 1347;
+        eCost = 1418;
         wLimit = 5425;
         
         array_push(_this.parts, id);
@@ -388,7 +388,7 @@ _this = id;
         name = "CR-LRJ76";
         tag = "Reverse Joint";
         
-        eCost = 1274;
+        eCost = 1341;
         wLimit = 5122;
         
         array_push(_this.parts, id);
@@ -400,7 +400,7 @@ _this = id;
         name = "CR-LRJ84M";
         tag = "Reverse Joint";
         
-        eCost = 513;
+        eCost = 1688;
         wLimit = 5244;
         
         base = false;
@@ -414,7 +414,7 @@ _this = id;
         name = "LR04-GAZELLE";
         tag = "Reverse Joint";
         
-        eCost = 1388;
+        eCost = 1461;
         wLimit = 5731;
         
         base = false;
@@ -428,7 +428,7 @@ _this = id;
         name = "LR02-ORYX";
         tag = "Reverse Joint";
         
-        eCost = 1486;
+        eCost = 1564;
         wLimit = 5813;
         
         base = false;
@@ -454,7 +454,7 @@ _this = id;
         name = "LR03-ORYX2";
         tag = "Reverse Joint";
         
-        eCost = 1704;
+        eCost = 1794;
         wLimit = 6038;
         
         array_push(_this.parts, id);
@@ -466,7 +466,7 @@ _this = id;
         name = "CR-LRJ90A2";
         tag = "Reverse Joint";
         
-        eCost = 1608;
+        eCost = 1709;
         wLimit = 6204;
         
         array_push(_this.parts, id);
@@ -483,7 +483,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 2605;
-        wLimit = 5055;
+        wLimit = 4595;
         
         array_push(_this.parts, id);
         
@@ -495,7 +495,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 3319;
-        wLimit = 5502;
+        wLimit = 5002;
         
         base = false;
         
@@ -509,7 +509,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 2317;
-        wLimit = 4968;
+        wLimit = 4516;
         
         array_push(_this.parts, id);
         
@@ -521,7 +521,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 2147;
-        wLimit = 5775;
+        wLimit = 5250;
         
         array_push(_this.parts, id);
         
@@ -533,7 +533,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 3477;
-        wLimit = 6600;
+        wLimit = 6000;
         
         base = false;
         
@@ -547,7 +547,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 3972;
-        wLimit = 6050;
+        wLimit = 5500;
         
         base = false;
         
@@ -561,7 +561,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 2964;
-        wLimit = 6196;
+        wLimit = 5633;
         
         base = false;
         
@@ -575,7 +575,7 @@ _this = id;
         tag = "Quadruped";
         
         eCost = 3670;
-        wLimit = 6435;
+        wLimit = 5850;
         
         base = false;
         
@@ -770,7 +770,7 @@ _this = id;
         tag = "Hover";
         
         eCost = 2425;
-        wLimit = 5204;
+        wLimit = 5205;
         
         base = false;
         boostLeg = true;

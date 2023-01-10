@@ -13,7 +13,7 @@ _this = id;
         tag = "Middleweight";
         
         wCost = 1290;
-        eCost = 915;
+        eCost = 995;
         
         array_push(_this.parts, id);
         
@@ -25,7 +25,7 @@ _this = id;
         tag = "Middleweight";
         
         wCost = 1149;
-        eCost = 1003;
+        eCost = 1123;
         
         array_push(_this.parts, id);
         
@@ -37,7 +37,7 @@ _this = id;
         tag = "Middleweight";
         
         wCost = 1187;
-        eCost = 1087;
+        eCost = 1181;
         
         array_push(_this.parts, id);
         
@@ -49,7 +49,7 @@ _this = id;
         tag = "Middleweight";
         
         wCost = 1099;
-        eCost = 1184;
+        eCost = 1246;
         
         array_push(_this.parts, id);
         
@@ -60,7 +60,7 @@ _this = id;
         name = "CR-A72F";
         tag = "Middleweight";
         
-        wCost = 1152;
+        wCost = 1356;
         eCost = 905;
         
         array_push(_this.parts, id);
@@ -73,7 +73,7 @@ _this = id;
         tag = "Middleweight";
         
         wCost = 1222;
-        eCost = 998;
+        eCost = 1085;
         
         array_push(_this.parts, id);
         
@@ -130,8 +130,8 @@ _this = id;
         name = "CR-A82SL";
         tag = "Lightweight";
         
-        wCost = 955;
-        eCost = 857;
+        wCost = 956;
+        eCost = 942;
         
         array_push(_this.parts, id);
         
@@ -142,7 +142,7 @@ _this = id;
         name = "CR-A88FG";
         tag = "Lightweight";
         
-        wCost = 698;
+        wCost = 735;
         eCost = 1144;
         
         base = false;
@@ -156,7 +156,7 @@ _this = id;
         name = "A05-LANGUR";
         tag = "Lightweight";
         
-        wCost = 958;
+        wCost = 1008;
         eCost = 1167;
         
         base = false;
@@ -171,7 +171,7 @@ _this = id;
         tag = "Lightweight";
         
         wCost = 838;
-        eCost = 1208;
+        eCost = 1272;
         
         base = false;
         
@@ -198,7 +198,7 @@ _this = id;
         name = "CR-A92XS";
         tag = "Lightweight";
         
-        wCost = 845;
+        wCost = 891;
         eCost = 728;
         
         base = false;
@@ -212,7 +212,7 @@ _this = id;
         name = "CR-A94FL";
         tag = "Lightweight";
         
-        wCost = 819;
+        wCost = 862;
         eCost = 1127;
         
         base = false;
@@ -255,7 +255,7 @@ _this = id;
         tag = "Heavyweight";
         
         wCost = 1799;
-        eCost = 1354;
+        eCost = 1364;
         
         base = false;
         
@@ -310,8 +310,8 @@ _this = id;
         name = "YA10-LORIS";
         tag = "Heavyweight";
         
-        wCost = 1055;
-        eCost = 1355;
+        wCost = 1121;
+        eCost = 1356;
         
         base = false;
         

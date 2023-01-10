@@ -53,7 +53,7 @@ with place(obj_part){
         
     name = "CR-B83TP";
     
-    wCost = 389;
+    wCost = 412;
     eCost = 195;
     
     base = false;
@@ -79,7 +79,7 @@ with place(obj_part){
         
     name = "B03-VULTURE2";
     
-    wCost = 363;
+    wCost = 428;
     eCost = 235;
     
     base = false;
@@ -118,7 +118,7 @@ with place(obj_part){
         
     name = "CR-B90T2";
     
-    wCost = 479;
+    wCost = 533;
     eCost = 470;
     
     array_push(_this.parts, id);

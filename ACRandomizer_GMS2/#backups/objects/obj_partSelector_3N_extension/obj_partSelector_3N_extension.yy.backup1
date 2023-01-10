@@ -1,4 +1,4 @@
-// 2023-01-08 21:17:47
+// 2023-01-09 16:25:22
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -18,6 +18,8 @@ with place(obj_part){
     wCost = 412;
     eCost = 257;
     
+    base = false;
+    
     array_push(_this.parts, id);
     
 }
@@ -29,6 +31,8 @@ with place(obj_part){
     
     wCost = 341;
     eCost = 243;
+    
+    base = false;
     
     array_push(_this.parts, id);
     
@@ -78,6 +82,8 @@ with place(obj_part){
     wCost = 260;
     eCost = 180;
     
+    base = false;
+    
     array_push(_this.parts, id);
     
 }
@@ -89,6 +95,8 @@ with place(obj_part){
     
     wCost = 331;
     eCost = 278;
+    
+    base = false;
     
     array_push(_this.parts, id);
     
@@ -102,6 +110,8 @@ with place(obj_part){
     wCost = 301;
     eCost = 206;
     
+    base = false;
+    
     array_push(_this.parts, id);
     
 }
@@ -113,6 +123,8 @@ with place(obj_part){
     
     wCost = 399;
     eCost = 253;
+    
+    base = false;
     
     array_push(_this.parts, id);
     
@@ -137,6 +149,8 @@ with place(obj_part){
     
     wCost = 359;
     eCost = 327;
+    
+    base = false;
     
     array_push(_this.parts, id);
     
@@ -176,6 +190,8 @@ with place(obj_part){
     wCost = 227;
     eCost = 164;
     
+    base = false;
+    
     array_push(_this.parts, id);
     
 }
@@ -187,6 +203,8 @@ with place(obj_part){
     
     wCost = 312;
     eCost = 117;
+    
+    base = false;
     
     array_push(_this.parts, id);
     
@@ -264,6 +282,8 @@ with place(obj_part){
     wCost = 125;
     eCost = 281;
     
+    base = false;
+    
     array_push(_this.parts, id);
     
 }
@@ -313,6 +333,8 @@ with place(obj_part){
     
     wCost = 132;
     eCost = 97;
+    
+    base = false;
     
     array_push(_this.parts, id);
     

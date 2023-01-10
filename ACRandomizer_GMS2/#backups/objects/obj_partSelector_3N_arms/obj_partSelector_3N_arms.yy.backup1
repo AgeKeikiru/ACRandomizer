@@ -1,4 +1,4 @@
-// 2023-01-08 20:15:44
+// 2023-01-09 16:15:19
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -92,6 +92,8 @@ _this = id;
         wCost = 1559;
         eCost = 1476;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -103,6 +105,8 @@ _this = id;
         
         wCost = 1308;
         eCost = 1287;
+        
+        base = false;
         
         array_push(_this.parts, id);
         
@@ -160,6 +164,8 @@ _this = id;
         wCost = 958;
         eCost = 1167;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -171,6 +177,8 @@ _this = id;
         
         wCost = 838;
         eCost = 1208;
+        
+        base = false;
         
         array_push(_this.parts, id);
         
@@ -184,6 +192,8 @@ _this = id;
         wCost = 1015;
         eCost = 1245;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -196,6 +206,8 @@ _this = id;
         wCost = 845;
         eCost = 728;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -207,6 +219,8 @@ _this = id;
         
         wCost = 819;
         eCost = 1127;
+        
+        base = false;
         
         array_push(_this.parts, id);
         
@@ -262,6 +276,8 @@ _this = id;
         wCost = 1630;
         eCost = 1411;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -274,6 +290,8 @@ _this = id;
         wCost = 1749;
         eCost = 1180;
         
+        base = false;
+        
         array_push(_this.parts, id);
         
     }
@@ -285,6 +303,8 @@ _this = id;
         
         wCost = 1934;
         eCost = 1731;
+        
+        base = false;
         
         array_push(_this.parts, id);
         
@@ -330,6 +350,7 @@ _this = id;
         wCost = 1311;
         eCost = 1885;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -386,6 +407,7 @@ _this = id;
         wCost = 1774;
         eCost = 2515;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -400,6 +422,7 @@ _this = id;
         wCost = 1514;
         eCost = 1575;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -429,6 +452,7 @@ _this = id;
         wCost = 1560;
         eCost = 1327;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -457,6 +481,7 @@ _this = id;
         wCost = 1830;
         eCost = 1887;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -485,6 +510,7 @@ _this = id;
         wCost = 1245;
         eCost = 2335;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -499,6 +525,7 @@ _this = id;
         wCost = 1665;
         eCost = 2245;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);
@@ -527,6 +554,7 @@ _this = id;
         wCost = 1180;
         eCost = 2645;
         
+        base = false;
         wepArm = true;
         
         array_push(_this.parts, id);

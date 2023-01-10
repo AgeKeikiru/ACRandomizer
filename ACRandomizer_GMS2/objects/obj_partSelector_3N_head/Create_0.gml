@@ -9,7 +9,7 @@ with place(obj_part){
     name = "CR-H69S";
     
     wCost = 145;
-    eCost = 185;
+    eCost = 218;
     
     array_push(_this.parts, id);
     
@@ -20,7 +20,7 @@ with place(obj_part){
     name = "CR-YH70S2";
     
     wCost = 197;
-    eCost = 164;
+    eCost = 194;
     
     base = false;
     
@@ -33,7 +33,7 @@ with place(obj_part){
     name = "H01-WASP";
     
     wCost = 228;
-    eCost = 204;
+    eCost = 241;
     
     array_push(_this.parts, id);
     
@@ -44,7 +44,7 @@ with place(obj_part){
     name = "CR-H72S3";
     
     wCost = 179;
-    eCost = 280;
+    eCost = 330;
     
     array_push(_this.parts, id);
     
@@ -54,8 +54,8 @@ with place(obj_part){
     
     name = "CR-H73E";
     
-    wCost = 184;
-    eCost = 444;
+    wCost = 230;
+    eCost = 556;
     
     radar = true;
     
@@ -68,7 +68,7 @@ with place(obj_part){
     name = "H02-WASP2";
     
     wCost = 262;
-    eCost = 338;
+    eCost = 398;
     
     radar = true;
     
@@ -81,7 +81,7 @@ with place(obj_part){
     name = "CR-H81S4";
     
     wCost = 241;
-    eCost = 188;
+    eCost = 222;
     
     base = false;
     
@@ -104,8 +104,8 @@ with place(obj_part){
     
     name = "CR-H84E2";
     
-    wCost = 228;
-    eCost = 328;
+    wCost = 286;
+    eCost = 411;
     
     base = false;
     radar = true;
@@ -118,8 +118,8 @@ with place(obj_part){
     
     name = "H04-CICADA";
     
-    wCost = 101;
-    eCost = 199;
+    wCost = 110;
+    eCost = 201;
     
     array_push(_this.parts, id);
     
@@ -184,8 +184,8 @@ with place(obj_part){
     
     name = "H07-CRICKET";
     
-    wCost = 141;
-    eCost = 479;
+    wCost = 177;
+    eCost = 599;
     
     base = false;
     radar = true;
@@ -198,8 +198,8 @@ with place(obj_part){
     
     name = "YH08-MANTIS";
     
-    wCost = 222;
-    eCost = 440;
+    wCost = 296;
+    eCost = 550;
     
     base = false;
     radar = true;
@@ -226,8 +226,8 @@ with place(obj_part){
     
     name = "CR-H95EE";
     
-    wCost = 143;
-    eCost = 103;
+    wCost = 179;
+    eCost = 707;
     
     base = false;
     radar = true;
@@ -240,8 +240,8 @@ with place(obj_part){
     
     name = "H10-CICADA2";
     
-    wCost = 230;
-    eCost = 340;
+    wCost = 288;
+    eCost = 425;
     
     base = false;
     radar = true;
