@@ -342,6 +342,7 @@ _this = id;
         eCost = 241;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -458,8 +459,6 @@ _this = id;
         
         wCost = 174;
         eCost = 119;
-        
-        hangar = true;
         
         array_push(_this.parts, id);
         

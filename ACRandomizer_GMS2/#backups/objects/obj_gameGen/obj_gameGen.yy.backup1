@@ -1,4 +1,4 @@
-// 2023-01-09 17:08:00
+// 2023-01-09 22:37:25
 #event properties (no comments/etc. here are saved)
 parent_index = -1;
 uses_physics = false;
@@ -28,8 +28,11 @@ veto = "---";
 
 vetos = [
     "Can change Head",
-    "Can change either Arm Weapon (not both)",
+    "Can change either Arm Weapon (not both, weapon arms can change to any other weapon arm)",
     "Can change either Back Weapon (not both, Duals can change to another Dual or a single Back Weapon)",
+    "Can change Extension",
+    "Can change Inside",
+    "Can change Radiator",
     "Can use/change Optional Parts"
 ];
 
@@ -471,6 +474,8 @@ fn_randomize = function(){
         veto = arrayRand(vetos);
     
     #endregion
+    
+    show_debug_message(string(wTotal) + "/" + string(legs.main.wLimit));
     
     if(_fail){
         fn_randomize();

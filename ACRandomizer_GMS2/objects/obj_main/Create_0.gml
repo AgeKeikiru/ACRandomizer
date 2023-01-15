@@ -58,7 +58,7 @@ with sld_inEQ{
     
     baseName = "Inside EqR";
     tooltip = "Equip Rate. 0% means this category will always remain unequipped";
-    fn_update(0.2);
+    fn_update(0.3);
     
 }
 
@@ -69,7 +69,7 @@ with sld_extEQ{
     
     baseName = "Extension EqR";
     tooltip = "Equip Rate. 0% means this category will always remain unequipped";
-    fn_update(0.2);
+    fn_update(0.3);
     
 }
 

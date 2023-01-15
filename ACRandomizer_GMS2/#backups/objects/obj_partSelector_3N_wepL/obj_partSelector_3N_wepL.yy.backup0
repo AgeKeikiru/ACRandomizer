@@ -1,4 +1,4 @@
-// 2023-01-09 16:43:01
+// 2023-01-10 12:19:45
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -347,6 +347,7 @@ _this = id;
         eCost = 241;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -463,8 +464,6 @@ _this = id;
         
         wCost = 174;
         eCost = 119;
-        
-        hangar = true;
         
         array_push(_this.parts, id);
         
