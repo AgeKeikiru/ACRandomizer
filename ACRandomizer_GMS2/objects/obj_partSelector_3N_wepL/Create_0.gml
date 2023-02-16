@@ -77,7 +77,6 @@ _this = id;
         
         base = false;
         bladeL = true;
-        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -109,7 +108,6 @@ _this = id;
         
         base = false;
         bladeL = true;
-        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -141,7 +139,6 @@ _this = id;
         
         base = false;
         bladeL = true;
-        hangar = true;
         
         array_push(_this.parts, id);
         

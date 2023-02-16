@@ -1,4 +1,4 @@
-// 2023-01-09 16:33:00
+// 2023-01-15 20:46:55
 #event properties (no comments/etc. here are saved)
 parent_index = obj_partSelector;
 uses_physics = false;
@@ -343,6 +343,7 @@ _this = id;
         eCost = 128;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -388,6 +389,8 @@ _this = id;
         wCost = 170;
         eCost = 128;
         
+        hangar = true;
+        
         array_push(_this.parts, id);
         
     }
@@ -399,6 +402,8 @@ _this = id;
         
         wCost = 146;
         eCost = 98;
+        
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -413,6 +418,7 @@ _this = id;
         eCost = 78;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -427,6 +433,7 @@ _this = id;
         eCost = 60;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -441,6 +448,7 @@ _this = id;
         eCost = 305;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -453,6 +461,8 @@ _this = id;
         
         wCost = 235;
         eCost = 106;
+        
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -467,6 +477,7 @@ _this = id;
         eCost = 89;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -481,6 +492,7 @@ _this = id;
         eCost = 99;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -739,6 +751,7 @@ _this = id;
         eCost = 106;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -771,6 +784,7 @@ _this = id;
         eCost = 256;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -785,6 +799,7 @@ _this = id;
         eCost = 357;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -797,6 +812,8 @@ _this = id;
         
         wCost = 355;
         eCost = 522;
+        
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -971,6 +988,7 @@ _this = id;
         eCost = 315;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
@@ -1013,6 +1031,7 @@ _this = id;
         eCost = 489;
         
         base = false;
+        hangar = true;
         
         array_push(_this.parts, id);
         
